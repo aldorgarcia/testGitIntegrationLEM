@@ -2,7 +2,7 @@
   "access" : {
     "access_api_keys" : [
       {
-        "api_key" : "bcbb9ea4017afa71fda0f646026b1cf29e3bcf77f4d687ec0a85deb0711382afef6a76e2022497a02d23a0a54aab3ece5599fe86e504a3f146b6aadfaacc4ddc",
+        "api_key" : "636314df6256d7f2e99b5ea01196af81c5ef2a2357f4b4f0057222a90a97bc38f9be2f81d1b6e1a8ca594b9b09d9ae40466336967ccc128667fb0d44b49623c2",
         "read_access_topics" : [
           ">"
         ],
@@ -11,7 +11,7 @@
     ],
     "accounts" : [
       {
-        "APIKey" : "3e0b261cd29ece442d598add312c5ecfdce7f8b652dcead49fe408f84d1fcc27a61e7b926d5bc8ffcecf897062d583eacf0f2d45d4354372a783f5aa9014f424",
+        "APIKey" : "713a0897235436dcbd16367be875d2dd997ae2a057d24448eae4668db92429fe7b2c58d42b0362c2b0f6cb6b714e74356a4100cf6b878be35c05abb04110c81d",
         "Enabled" : true,
         "ID" : "ea18fa52-172b-4c1d-a2ea-f105fbb29b63",
         "Name" : "PVEAccount"
@@ -27,10 +27,28 @@
     }
   },
   "analytics2" : {
+    "AIModels" : [
+      {
+        "APIKey" : "55cc55d6e36bfb098e5b202586184e60aea9c0c2549291e62495da6d1c3fb8e4",
+        "CfAPIKey" : "",
+        "ModelName" : "test1",
+        "ModelResponsesPayload" : {
+          "model" : "",
+          "stream" : false
+        },
+        "ModelSpecificURL" : "",
+        "ModelTextGenDataPayload" : null,
+        "ModelVisionDataPayload" : null,
+        "Provider" : "Cloudflare AI Gateway",
+        "URL" : "https://10.17.10.10:8446",
+        "UniqueName" : "random"
+      }
+    ],
     "Git" : "HEAD",
     "Positions" : [ ],
     "Processors" : [ ],
-    "Version" : "latest"
+    "Version" : "latest",
+    "hasEncryptedValues" : true
   },
   "auth" : {
     "groups" : [
@@ -49,7 +67,7 @@
       {
         "clientId" : "someClietnId",
         "clientName" : "CLientName",
-        "clientSecret" : "5b860f7eeb5c53730fe4f66209666481e7c4082871531a2816fc48bfc65aa3dae33ef17d71d8495beed1ca91",
+        "clientSecret" : "cd10df2b4349485b2d9176582a1617ad945044f6192d80d554832b37f85c39dbabf91e09e2500c69b8ace11e",
         "groups" : [
           "5d571169-35e9-4d40-b668-1e2b1564a208",
           "default_admins_group"
@@ -62,7 +80,7 @@
     "providers" : [
       {
         "bindDN" : "cn=admin,dc=example,dc=org",
-        "bindDNPassword" : "aaea4ad77f89061f2a1acb5019c61c40e9e8a2357ce93549b9f79dba8ad7a49ab3",
+        "bindDNPassword" : "401e9b5472e19dba0345798e5f4c99295fd50943b118a427e73bac388d66f91563",
         "groupAttrGroup" : "member",
         "groupAttrName" : "cn",
         "groupAttrUser" : "DN",
@@ -97,6 +115,51 @@
         ]
       ],
       "policies" : [
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "lic",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "dm",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "support",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "View"
+        ],
         [
           "r_default_admin_role",
           "access",
@@ -381,51 +444,6 @@
           "r_default_admin_role",
           "sysinfo",
           "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "lic",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "support",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "sysinfo",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "AcceptEula"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "ChangePassword"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "dm",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "opcua",
-          "Modify"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "opcua",
-          "View"
         ]
       ]
     },
@@ -445,7 +463,7 @@
     "hasEncryptedValues" : true,
     "instances" : [
       {
-        "config" : "fc3b49efd77bb45ee2427475b02ea6b2145e99b826e4f2f0e2247cd14d0f03a3893b2ad59d15fc215c6ea41f4db8554b3e441cb88c9478540e126802d00d7f220b03a55944a8565d021d4129d82cc4164a9d6310a45fc85eec883fa2e80580c9f48635fc8bb711bb4ca2e532a4fb94ba78ffdc24598d0c68e764c5be46b5e5773c0fcd73d96d336affaac0eacbac70661deb6626606e1cf68cc3d035babcf3211f4a3bf8eb781c054ddd5fca1f5a5d56250815eaefdfc5de55c97b0f9bc0cc40198750bec9aa1e86feae41c7a42242ea44ede542c916c60d28190421c04479d6e7835aaa469becbfea3bb8b1584f324b0ecb82280d343698c98771e33e0c293a599a24126a03fec53d45ef1f72cfb7fa419d683c8f25074ac357b821474ee1de98fefd9fe072bc4f21",
+        "config" : "a743a43252386bc5b874dd49d9d9c7d46617adf366cb080006cc3d534deb690474962c52b41015ae15e7b8c745cb9cdaf1ced05875b9b36b6ad0a2bc6e9101f29f1065e7d88eccbde4b81eb31dc34593357dae6f912d0ba43edee45361d0117473cebc4b118f92e11ef1e567b50d91fa99e42430e630ee3249e017d5cac1792acd5005b080effa12ead477776277af9e83b6d852d3954bad1cab8f843004f3029f643f17fa9107b38b622ca9251dc5d32070bf3f343da94c3606ee484567ae3ad4b8be96f10122d2a24ecac8cc598082adf32b988ce54a9d1a7a0bcdb57b398f4ff1c8cbc3c94f62cd0b163acd14736c070389a1e9d610949c852156a2d50260f5d73a396a0de7d3b7823e46daf0292ce04e50c5688e5921cea784c32fb10f4c7e94f086e5b66cb7d5",
         "enabled" : false,
         "id" : "01a9278c-7e98-4e3e-bc00-e7f43d96f251",
         "isSystem" : false,
@@ -453,7 +471,7 @@
         "topics" : [ ]
       },
       {
-        "config" : "aa1d6a14cc3000ab81017ab842eaab1ca2a32189aa63301586362cb717222f4823052eb99fc42302745fb438eb9c0befceb7bc68aafd4d3060fc5e221e682319e077dc436ab741b20228ea41062e811a764263bc50115fda9a733ac652c96f60f464a6734c1b2595abcc7e73e5dc303189920f86261ad4607ab4804a5adae6d679a8dee7abec3dc7fc9a72fc07a2675a8af0bf7b863c5132ae47cb71b45df77c722a90435033f03edf8fe241ec441f1dc6a6ed6cee9604d25283e71c82db443496e04a900f270b3b4618a842f7efd1c05779c9a56aec0fc7e503f2799ac4b9602d4dd60d0d98f94c4ed87ec00d269a1e919a8a2ffff9b5c5899aca51a25ba618d36822e07f4f638cf7166adb4069881bb9492e3fc0dfc5ec7508e909194c3e4f9bc5064c1667ab462cb0c0873c636a128adb469d8dd8247c2384250625dad5da8976b5d7ca096590b6f0d08720579bb32bd580898175b3ae7af04a15d035f035ba9888992edc45f02f03b6519d5bc619198db26845c4a056804db9380fc0ef35d881cfde24bd878e7b42e864c2b3ac918cca9902",
+        "config" : "d66146237d6e47252fcce7f1d253caae05f83ee0c16e4eb8f7014ab5e90b994ca5f9a172290d638aa6114e3070cd7cd2bf4a928a553f74522a954f9e27a18659bfb9fafbd17b4bb7d1a24fc297bda2a60cfce55b12599709a9a9e81a42aa03ea528ae004c8c5ef3053e48c1227ae87f89bc4366636ae27da85ecc490d54b75accd49e2d2d19133c2f8664195a9ff6ecd1092ae45ff20afeb6821e77bc2387980132b3a84b10d0200e688cb073bf07aaa692110076cf5203f3774e3b0e6f6f77b36d3508ddbe0745f130637c1ffb80f5ac7713e84a805a5ea895509d8c117a81056a4fe98299cc973bf6dcba832c2de80c24f5b16a5ffab18d90a10755e4d06cec69873851ce82fc9a624a9a6f6b3c528f46f759fad7e4834fbf6691ebcda419594d331c345bfac22e7ad4a7b41448a403aa33af8780cb335e0b54cf073f8fd7aed4c6f4636709f0ba152a00a198901d6b502a2f97e22363ac69d03abc5f0eeb008d65c40d737262f6532fca269d665d2f9ac3d312dd1745c57bb8c3d63cf25f853a852b04afb376cb52980c11b8fcb86dde4d6",
         "enabled" : false,
         "id" : "5ccfa2b5-04b4-4405-9306-ea7d65d46eff",
         "isSystem" : false,
@@ -461,7 +479,7 @@
         "topics" : [ ]
       },
       {
-        "config" : "de39a5d193c5c7bc6cc3eb36673f3aa5354bff3a34108dc677b8c7e4e1b7f1b65a8c2c8c717e1df4122171b20adfe5bf9b49a632f3e3c15c52df8241845bc87226bf67afd3e461e45f492153f8f81066fc59e05937cfa8bb4fa62f64fa23985ed787d02e8fa4a3f1340c4187dab1056f82da4153693d1c38f2196bb06948e251e8feb5c6ac035858214c511d05f871642894e5345e3d58cde85fa966648529a6a3d6efcc8b12ab301940c5750154554cdabd1c663c40fdadaf59646362a73a7c30b3d96de02201b5d954bb8921017f277e5278030f0a5cf76d2ab5af17be4ca5d0511f5e1eed694b2e594cf68e3fd027db480a3c6b3772a05b897db4c91d900a3aec2c1da9f97723d255a20bd9b50c58e294681424d730642911bc22d086de72bc24371918d0",
+        "config" : "bf693368edef19eb8c467d375d0474e6831e2e96bb5dfe17001f211403698da38c4d90e04773169e585425fc545a7231181fcf4ae2738f3185d0824a7d59425658f7dfea9be2c5bc5be35ee43a1c1e5086db72a2bb4cbd47b1ab8d17606832ab8fed14da65658a92fcfd258ac5bf1733b398c8eb4e2e3de0732cc2a18237e7b5eb03247047cc67e4d763013d27fe9bd448fad1c4e7795000edb3706200a9f588968875e35d5c0360caf1e4f383daedb2d3a5f069d129793d9c19616192e9db5eb181ef543ffcb212ca96503ba8dba69151a852d8219212e6fb1e7a3eb4b0e49470cb3a26ebe296cb79f3236abae606fd2c6cdf81f53f7067b8662632784cacb42c23513aa760e1812daee547fdac08a4491d3818da159a5ce0acc4b5db4fe8d5cc45a08b5473",
         "enabled" : false,
         "id" : "dde05df3-dca4-4f90-8a53-a8d43b36802c",
         "isSystem" : false,
