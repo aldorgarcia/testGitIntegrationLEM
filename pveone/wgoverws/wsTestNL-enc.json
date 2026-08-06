@@ -1,0 +1,886 @@
+{
+  "access" : {
+    "access_api_keys" : [
+      {
+        "api_key" : "bcbb9ea4017afa71fda0f646026b1cf29e3bcf77f4d687ec0a85deb0711382afef6a76e2022497a02d23a0a54aab3ece5599fe86e504a3f146b6aadfaacc4ddc",
+        "read_access_topics" : [
+          ">"
+        ],
+        "write_access_topics" : null
+      }
+    ],
+    "accounts" : [
+      {
+        "APIKey" : "3e0b261cd29ece442d598add312c5ecfdce7f8b652dcead49fe408f84d1fcc27a61e7b926d5bc8ffcecf897062d583eacf0f2d45d4354372a783f5aa9014f424",
+        "Enabled" : true,
+        "ID" : "ea18fa52-172b-4c1d-a2ea-f105fbb29b63",
+        "Name" : "PVEAccount"
+      }
+    ],
+    "hasEncryptedValues" : true,
+    "proxy_state" : {
+      "is_enabled" : true
+    },
+    "version" : {
+      "git" : "f422400a2d",
+      "version" : "1.9.7"
+    }
+  },
+  "analytics2" : {
+    "Git" : "HEAD",
+    "Positions" : [ ],
+    "Processors" : [ ],
+    "Version" : "latest"
+  },
+  "auth" : {
+    "groups" : [
+      {
+        "id" : "5d571169-35e9-4d40-b668-1e2b1564a208",
+        "name" : "OPCUATEST"
+      },
+      {
+        "id" : "default_admins_group",
+        "name" : "Administrators",
+        "system" : true
+      }
+    ],
+    "hasEncryptedValues" : true,
+    "oidcProviders" : [
+      {
+        "clientId" : "someClietnId",
+        "clientName" : "CLientName",
+        "clientSecret" : "5b860f7eeb5c53730fe4f66209666481e7c4082871531a2816fc48bfc65aa3dae33ef17d71d8495beed1ca91",
+        "groups" : [
+          "5d571169-35e9-4d40-b668-1e2b1564a208",
+          "default_admins_group"
+        ],
+        "providerName" : "testProviderName",
+        "redirectUri" : "https://10.17.3.183/auth/v3/oidc/callback",
+        "url" : "https://dev-es46opu8q7jmyja4.us.auth0.com/"
+      }
+    ],
+    "providers" : [
+      {
+        "bindDN" : "cn=admin,dc=example,dc=org",
+        "bindDNPassword" : "aaea4ad77f89061f2a1acb5019c61c40e9e8a2357ce93549b9f79dba8ad7a49ab3",
+        "groupAttrGroup" : "member",
+        "groupAttrName" : "cn",
+        "groupAttrUser" : "DN",
+        "groupFilter" : "(&(objectClass=groupOfNames)(cn=litmus*))",
+        "groupSearchBaseDN" : "dc=example,dc=org",
+        "groupSearchScope" : "sub",
+        "groupsToRoles" : {
+          "litmus-admin" : "default_admins_group"
+        },
+        "host" : "10.30.50.4",
+        "name" : "openldap",
+        "port" : 389,
+        "type" : "generic",
+        "userAttrFirstName" : "givenName",
+        "userAttrID" : "employeeNumber",
+        "userAttrLastName" : "sn",
+        "userAttrUsername" : "cn",
+        "userFilter" : "(&(objectClass=inetOrgPerson))",
+        "userSearchBaseDN" : "dc=example,dc=org",
+        "userSearchScope" : "sub"
+      }
+    ],
+    "rbac" : {
+      "groups" : [
+        [
+          "g_5d571169-35e9-4d40-b668-1e2b1564a208",
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091"
+        ],
+        [
+          "g_default_admins_group",
+          "r_default_admin_role"
+        ]
+      ],
+      "policies" : [
+        [
+          "r_default_admin_role",
+          "access",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "access",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "analytics",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "analytics",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "cc",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "cc",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "config",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "config",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "css",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "css",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ModifyDevices"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ModifyTags"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewDevices"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewDrivers"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewTags"
+        ],
+        [
+          "r_default_admin_role",
+          "dl",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dm",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dm",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dt",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dt",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "events",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "events",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "flows",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "flows",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "ftp",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "ftp",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "iotedge",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "iotedge",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "lic",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "lic",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "logs",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Create"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Delete"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "ModifyPrivileged"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Update"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "nd",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "nd",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "nwutil",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "nwutil",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "opcua",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "sensonode",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "sensonode",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "stats",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "stats",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "support",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "support",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "sysinfo",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "lic",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "support",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "dm",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "View"
+        ]
+      ]
+    },
+    "roles" : [
+      {
+        "id" : "f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+        "name" : "opcuaUser"
+      },
+      {
+        "id" : "default_admin_role",
+        "name" : "Administrator",
+        "system" : true
+      }
+    ]
+  },
+  "cc" : {
+    "hasEncryptedValues" : true,
+    "instances" : [
+      {
+        "config" : "fc3b49efd77bb45ee2427475b02ea6b2145e99b826e4f2f0e2247cd14d0f03a3893b2ad59d15fc215c6ea41f4db8554b3e441cb88c9478540e126802d00d7f220b03a55944a8565d021d4129d82cc4164a9d6310a45fc85eec883fa2e80580c9f48635fc8bb711bb4ca2e532a4fb94ba78ffdc24598d0c68e764c5be46b5e5773c0fcd73d96d336affaac0eacbac70661deb6626606e1cf68cc3d035babcf3211f4a3bf8eb781c054ddd5fca1f5a5d56250815eaefdfc5de55c97b0f9bc0cc40198750bec9aa1e86feae41c7a42242ea44ede542c916c60d28190421c04479d6e7835aaa469becbfea3bb8b1584f324b0ecb82280d343698c98771e33e0c293a599a24126a03fec53d45ef1f72cfb7fa419d683c8f25074ac357b821474ee1de98fefd9fe072bc4f21",
+        "enabled" : false,
+        "id" : "01a9278c-7e98-4e3e-bc00-e7f43d96f251",
+        "isSystem" : false,
+        "providerId" : "286b6ec7-4069-4022-81c4-6e4826a9662c",
+        "topics" : [ ]
+      },
+      {
+        "config" : "aa1d6a14cc3000ab81017ab842eaab1ca2a32189aa63301586362cb717222f4823052eb99fc42302745fb438eb9c0befceb7bc68aafd4d3060fc5e221e682319e077dc436ab741b20228ea41062e811a764263bc50115fda9a733ac652c96f60f464a6734c1b2595abcc7e73e5dc303189920f86261ad4607ab4804a5adae6d679a8dee7abec3dc7fc9a72fc07a2675a8af0bf7b863c5132ae47cb71b45df77c722a90435033f03edf8fe241ec441f1dc6a6ed6cee9604d25283e71c82db443496e04a900f270b3b4618a842f7efd1c05779c9a56aec0fc7e503f2799ac4b9602d4dd60d0d98f94c4ed87ec00d269a1e919a8a2ffff9b5c5899aca51a25ba618d36822e07f4f638cf7166adb4069881bb9492e3fc0dfc5ec7508e909194c3e4f9bc5064c1667ab462cb0c0873c636a128adb469d8dd8247c2384250625dad5da8976b5d7ca096590b6f0d08720579bb32bd580898175b3ae7af04a15d035f035ba9888992edc45f02f03b6519d5bc619198db26845c4a056804db9380fc0ef35d881cfde24bd878e7b42e864c2b3ac918cca9902",
+        "enabled" : false,
+        "id" : "5ccfa2b5-04b4-4405-9306-ea7d65d46eff",
+        "isSystem" : false,
+        "providerId" : "3474926c-eda9-4fbb-965d-c1ea76ea42ff",
+        "topics" : [ ]
+      },
+      {
+        "config" : "de39a5d193c5c7bc6cc3eb36673f3aa5354bff3a34108dc677b8c7e4e1b7f1b65a8c2c8c717e1df4122171b20adfe5bf9b49a632f3e3c15c52df8241845bc87226bf67afd3e461e45f492153f8f81066fc59e05937cfa8bb4fa62f64fa23985ed787d02e8fa4a3f1340c4187dab1056f82da4153693d1c38f2196bb06948e251e8feb5c6ac035858214c511d05f871642894e5345e3d58cde85fa966648529a6a3d6efcc8b12ab301940c5750154554cdabd1c663c40fdadaf59646362a73a7c30b3d96de02201b5d954bb8921017f277e5278030f0a5cf76d2ab5af17be4ca5d0511f5e1eed694b2e594cf68e3fd027db480a3c6b3772a05b897db4c91d900a3aec2c1da9f97723d255a20bd9b50c58e294681424d730642911bc22d086de72bc24371918d0",
+        "enabled" : false,
+        "id" : "dde05df3-dca4-4f90-8a53-a8d43b36802c",
+        "isSystem" : false,
+        "providerId" : "493124c6-c9c0-4583-a10f-c100fbfd9f42",
+        "topics" : [ ]
+      }
+    ],
+    "version" : {
+      "git" : "75d4a740ec",
+      "version" : "3.5.13"
+    }
+  },
+  "devicehub" : {
+    "Devs" : [
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "driverId" : "41efeede-e2c6-4d34-ad6c-2442a8d9b2b1",
+          "id" : "13de703c-7d31-4522-bae4-a392fafd9a5f",
+          "name" : "test",
+          "settings" : {
+            "description" : "",
+            "interface" : "0.0.0.0",
+            "networkPort" : "4777",
+            "password" : "secret-password",
+            "user" : "admin"
+          },
+          "stopped" : true,
+          "version" : "0.0.1"
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "3fcb9ef2-d638-11e9-bb65-2a2ae2dbcce4",
+          "id" : "16e2c807-4f69-4f7a-bb74-9d0007fd549a",
+          "name" : "testOPCUA",
+          "settings" : {
+            "Auth" : "0",
+            "Certificate" : "-----BEGIN CERTIFICATE-----\nMIIDNjCCAh6gAwIBAgIQd4yJLFktQ3Z8V6EubWxGMjANBgkqhkiG9w0BAQsFADAX\nMRUwEwYDVQQKEwxvcGN1YSBjbGllbnQwHhcNMjYwNzE2MTgyMzU3WhcNMjcwNzE2\nMTgyMzU3WjAXMRUwEwYDVQQKEwxvcGN1YSBjbGllbnQwggEiMA0GCSqGSIb3DQEB\nAQUAA4IBDwAwggEKAoIBAQDVmRLYXTXJP7jwuPM/tFf/frJATBl4M/aZNCbHLWPy\niAmDJE2x4ZvjL1BoaWluN1ioL9eFjivi6IqGZVMvNvLNxsS7v9mGTN210aCMwzbS\n7fgBrRAmxwcGqKm/4nii+9ZLG2bT0TVINQ86LEI01iFwMcdoMJgKpXW4xUbo99Ea\nTDy9lpfC3C0Bx+K3tZjK5X59M0V0bgwp0AtUFSTso4vYQ8N8Dc2hxCEZ+1r/uL90\njO/ldgXxPsTuu3LaOBNpMd4n40Ju5ptZxqmcwR9ezT7aRcBhKqQjX885lFWxhN/D\nmNw/uYIysrCmsQTmxsqoTRDKhgbcUJrctbJWuwSngTeRAgMBAAGjfjB8MA4GA1Ud\nDwEB/wQEAwIC9DAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0T\nAQH/BAIwADA9BgNVHREENjA0ghhsaXRtdXMtZWRnZS0wMDUwNTZiOTc2YTaGGGxp\ndG11cy1lZGdlLTAwNTA1NmI5NzZhNjANBgkqhkiG9w0BAQsFAAOCAQEAbitFqizp\nQsj4PSk8ZmV7T3iAYlVqBCBOTpoldOzfen/ADUdNrCwRWnDC490xGDwN7THpwnQO\n9oFClZ0Rju6z8iVovniPIyPoZAB8atD/D+MzXEP8WFPDJUStRNYQkCw9mqGAoe39\nZu1L9TqwQsgDHSDasGMfYM8T2ueRMMvinSODn5pDE79+Bc506AHGxJUmGLWOcCOD\nmVbaGpPeFaX3i5SGHwC88zNawfBT9V49upGqc8ZAw0dOnMLgEGJlmg3Pwv1ARFHi\ndbeog5/SevegbRyACGET4ZQL/pnyPEo8ZfnyoOKBBns3YNjm0NtOhGJUk8qEOSPn\nTpYYGUowfGatSA==\n-----END CERTIFICATE-----\n",
+            "Policy" : "0",
+            "PrivateKey" : "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA1ZkS2F01yT+48LjzP7RX/36yQEwZeDP2mTQmxy1j8ogJgyRN\nseGb4y9QaGlpbjdYqC/XhY4r4uiKhmVTLzbyzcbEu7/ZhkzdtdGgjMM20u34Aa0Q\nJscHBqipv+J4ovvWSxtm09E1SDUPOixCNNYhcDHHaDCYCqV1uMVG6PfRGkw8vZaX\nwtwtAcfit7WYyuV+fTNFdG4MKdALVBUk7KOL2EPDfA3NocQhGfta/7i/dIzv5XYF\n8T7E7rty2jgTaTHeJ+NCbuabWcapnMEfXs0+2kXAYSqkI1/POZRVsYTfw5jcP7mC\nMrKwprEE5sbKqE0QyoYG3FCa3LWyVrsEp4E3kQIDAQABAoIBAAkRlzW9e1+gh3sc\n9yLwxr2vxOSq9nfeiO1HRBA30qME+JZrT6sqP4KdSyYrt5C449g8M8PVXfKj2eHL\n4oTCKfvnoQmxowwrLkyealkfnq/E778ueF2VHKzBM3fUpzeQRrBoqOx8WO1IZ22a\nXHM+1iubyXIYghQNo1plcdXJU8TwfNFMAvuQLdCctL5VCVIDHLje4IfsMlj8G59v\nMcUJjnBnWOemYi2HcaExcSJE/JytLksrF+w5VEd872QrD/Fi1VNME8XYI+ntd1DL\nrjt8RXu7IeoMnvRqZEXjD+a0vkcvlRW2wOaVnQw7rI8jBiv6d/jZ3VYaljPiAI4l\nTdEy6rMCgYEA34+JEjBwyvVELb7JaJ1zXbmi16yWcwA8agm9r06OOQHw4uPpk6wO\nlOJLGYNJk9f2NoSyGRTTZG8zPWcuhJVnFDd0Q0YdBtpxlobcSJ4OGf8rT1HdNjCm\nNOkcbBe+m8je3i5R/lZ0XN2fEuak51QUXAyL3yt71ztYtXtHLgaM4IsCgYEA9Jd1\nagKOlemBU/8+v1SlQqs4WC2fixG0sgf6VUHGEI1icYvVHoE4ryqSR08QvVSRqqvZ\nxIjD1o47oHxtDLFnRHnZk5F+2XKlmfBPj3sZfo8kx1eo+QIajqZ1//qYT6udxLj1\nMKhxsvot+sIdQmoa/lDIr5U8szXiWkX1qKw0D9MCgYBUC6QeYHOm+Xn+MKGLYNYE\nQEvGBS4yYb5UpwDWrROuvtoOklw3lhGNS12sY7z/hcscR9qkrz2hnmSHCwlj8r7j\nzM06lVtIPktBqcWaz0DB6TohAcfGHZf+gDydLngMHQIcSRGuKlZoqzCobGlGRke5\nK0ZSSgiuq7L31za1SOUhbQKBgQCueAtM3x4OWU3jOMLtf9eSQsgiPgj8DlkyVPaA\nMjayP+fkzrXq2IoyiM9nBkMOinCNqZ/gzR3EwhhOVfMDhtf+xFwrIzG0sk7mC8D0\nu/5nhHvbpe/mD1YaQysQuRREYEpdtQFRABZ6cHKz2Bs+8Kjol39Pn8h4nQslEZo2\nAv/v+QKBgFh766B2jPnNhY+VoQExHMswrzeAhse6JWg8pco1Hte6HXEQpaW/sTbD\n4+Z2mC8Iua8jpXals2NQPEi7Ndbh84rTPHg/NfyaXqSfsnF5sal7sruz3v/7HVNm\ntE8eb9VvWZ1x6nrPyjZ/9ROZ7gO3+i6iQaVArh6kk4QZTUJiS7iY\n-----END RSA PRIVATE KEY-----\n",
+            "Show advanced config" : "0",
+            "TakeDiscoveryURL" : "0",
+            "description" : "",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "4840",
+            "securityMode" : "0"
+          },
+          "stopped" : true,
+          "version" : "0.0.3"
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "c373f016-4683-47dd-b633-e154afcc2d06",
+          "id" : "281b61cb-65b2-4ba6-b1aa-f8bd1d771c81",
+          "name" : "testHIST",
+          "settings" : {
+            "Address" : "192.168.0.1",
+            "AppName" : "devicehub",
+            "ConnectionTimeout" : "5",
+            "Database" : "master",
+            "EnableTLS" : "1",
+            "Password" : "secretPassword",
+            "Port" : "5432",
+            "RequestTimeout" : "10",
+            "Username" : "admin",
+            "description" : ""
+          },
+          "stopped" : true,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "custom_polling_register" : {
+            "name" : "bit",
+            "settings" : {
+              "address" : "0",
+              "count" : "1",
+              "formula" : "",
+              "maxValue" : "0",
+              "minValue" : "0",
+              "pollingInterval" : "1000"
+            },
+            "value_type" : "bit"
+          },
+          "debug" : true,
+          "dh_params" : {
+            "WatchDog" : "true",
+            "WatchDogPeriod" : "30"
+          },
+          "driverId" : "50e3eda1-11f9-41d6-9232-778a28665580",
+          "id" : "37398ae5-2dd3-4a46-9a04-972273612193",
+          "name" : "Simtest3",
+          "settings" : {
+            "description" : ""
+          },
+          "stopped" : false,
+          "version" : "1.0",
+          "worker_params" : {
+            "PublishAdditionalAttributes" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "4ee806f4-ee86-4efb-b06b-e63908c736a2",
+          "id" : "eaa64421-a00b-4736-85e6-a958ad0be953",
+          "name" : "Commplustest",
+          "settings" : {
+            "IQMCTDisplayFolders" : "1",
+            "InstanceDataBlockSupport" : "1",
+            "MTULoadFactor" : "80",
+            "OverridePLCCPUType" : "0",
+            "OverridePLCFirmwareVersion" : "0",
+            "OverrideTLS" : "1",
+            "Password" : "",
+            "description" : "",
+            "keepAlive" : "60",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "102",
+            "readTimeout" : "3000",
+            "retryCount" : "0"
+          },
+          "stopped" : true,
+          "version" : "0.0.2",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      }
+    ],
+    "Git" : "82d02c4c5e",
+    "Version" : "2.26.24"
+  },
+  "dtwin" : {
+    "instances" : [
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "bd66cf00-669b-41ef-bd8e-45062dfffcbc",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "5b1ed257-5389-42d3-9245-a4c8094357d3",
+        "name" : "Line03",
+        "parameters" : [
+          {
+            "id" : "98456414-0475-484f-81c4-463db90c898b",
+            "name" : "status_1",
+            "ownerId" : "bd66cf00-669b-41ef-bd8e-45062dfffcbc",
+            "ownerType" : 1,
+            "value" : "test"
+          },
+          {
+            "id" : "f7701548-96c2-479d-a134-ea56d40b6f48",
+            "name" : "temp",
+            "ownerId" : "bd66cf00-669b-41ef-bd8e-45062dfffcbc",
+            "ownerType" : 1,
+            "value" : "some-temp"
+          }
+        ],
+        "publishAttributes" : false,
+        "staticAttributes" : null,
+        "topic" : "digitaltwins.Model-1.Line03",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "bf5d505a-b04f-48ff-b2ac-2ad70e7c90fd",
+        "image" : "",
+        "interval" : 10,
+        "isEnabled" : true,
+        "modelId" : "5b1ed257-5389-42d3-9245-a4c8094357d3",
+        "name" : "Line01",
+        "parameters" : [
+          {
+            "id" : "6070fc68-6c8c-45c6-bb0b-10d9fe9ebc72",
+            "name" : "status_1",
+            "ownerId" : "bf5d505a-b04f-48ff-b2ac-2ad70e7c90fd",
+            "ownerType" : 1,
+            "value" : "test"
+          }
+        ],
+        "publishAttributes" : false,
+        "staticAttributes" : null,
+        "topic" : "digitaltwins.Model-1.Line01",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : true,
+        "id" : "f12a6ed6-7d5b-4272-aa3e-24f507ad0ac7",
+        "image" : "",
+        "interval" : 5,
+        "isEnabled" : true,
+        "modelId" : "5b1ed257-5389-42d3-9245-a4c8094357d3",
+        "name" : "Line02",
+        "parameters" : [
+          {
+            "id" : "a4235dc0-dd69-4831-9ce0-d270ca2d6e1a",
+            "name" : "status_1",
+            "ownerId" : "f12a6ed6-7d5b-4272-aa3e-24f507ad0ac7",
+            "ownerType" : 1,
+            "value" : "test"
+          }
+        ],
+        "publishAttributes" : true,
+        "staticAttributes" : null,
+        "topic" : "digitaltwins.Model-1.Line02",
+        "transformationBackup" : null
+      }
+    ],
+    "models" : [
+      {
+        "assets" : "ASSET",
+        "connectorName" : "",
+        "description" : "desc",
+        "dynamicAttributes" : [
+          {
+            "dataType" : "",
+            "id" : "8520192f-d6d1-4b4b-8acf-f49c84c105a7",
+            "instanceId" : null,
+            "modelId" : "4c687e54-101f-4e6b-a521-a434b62aa1e4",
+            "name" : "test",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          }
+        ],
+        "hierarchyNodes" : null,
+        "id" : "4c687e54-101f-4e6b-a521-a434b62aa1e4",
+        "image" : "",
+        "isUNS" : false,
+        "name" : "test",
+        "parameters" : null,
+        "staticAttributes" : null,
+        "transformationBackup" : null,
+        "version" : 0
+      },
+      {
+        "assets" : "ASSET",
+        "connectorName" : "",
+        "description" : "testing Model-1",
+        "dynamicAttributes" : null,
+        "hierarchyNodes" : null,
+        "id" : "5b1ed257-5389-42d3-9245-a4c8094357d3",
+        "image" : "",
+        "isUNS" : false,
+        "name" : "Model-1",
+        "parameters" : [
+          {
+            "id" : "28376f70-165e-4fb4-a2ae-64d53082069c",
+            "name" : "status_1",
+            "ownerId" : "5b1ed257-5389-42d3-9245-a4c8094357d3",
+            "ownerType" : 0,
+            "value" : "test"
+          },
+          {
+            "id" : "73427fdb-75ca-4361-82ef-505be437761f",
+            "name" : "temp",
+            "ownerId" : "5b1ed257-5389-42d3-9245-a4c8094357d3",
+            "ownerType" : 0,
+            "value" : "some-temp"
+          }
+        ],
+        "staticAttributes" : null,
+        "transformationBackup" : null,
+        "version" : 0
+      }
+    ],
+    "version" : {
+      "git" : "676bb9c824",
+      "version" : "2.9.12"
+    }
+  },
+  "marketplace" : {
+    "content" : "e30=",
+    "version" : "v0002"
+  },
+  "opcua" : {
+    "certificates" : [ ],
+    "enabled" : true,
+    "hierarchy" : {
+      "children" : null,
+      "data" : null,
+      "id" : "edgedevice",
+      "name" : "EdgeDevice",
+      "node_source" : "import",
+      "parent_id" : "",
+      "path" : [
+        "NODE",
+        "edgedevice"
+      ],
+      "type" : "FOLDER",
+      "version" : 1,
+      "worker_node_id" : "EdgeDevice",
+      "worker_node_id_mode" : "fixed"
+    },
+    "modes" : {
+      "Aes128_Sha256_RsaOaep-Sign" : false,
+      "Aes128_Sha256_RsaOaep-SignAndEncrypt" : false,
+      "Aes256_Sha256_RsaPss-Sign" : false,
+      "Aes256_Sha256_RsaPss-SignAndEncrypt" : false,
+      "Basic128Rsa15-Sign" : false,
+      "Basic128Rsa15-SignAndEncrypt" : false,
+      "Basic256-Sign" : false,
+      "Basic256-SignAndEncrypt" : false,
+      "Basic256Sha256-Sign" : false,
+      "Basic256Sha256-SignAndEncrypt" : false,
+      "None-None" : true
+    },
+    "policies" : {
+      "Anonymous" : [
+        "None"
+      ]
+    },
+    "users" : [ ],
+    "version" : {
+      "GitCommit" : "",
+      "Version" : ""
+    }
+  },
+  "stats" : {
+    "devices" : [
+      {
+        "id" : "13de703c-7d31-4522-bae4-a392fafd9a5f",
+        "name" : "test",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.test.>"
+      },
+      {
+        "id" : "16e2c807-4f69-4f7a-bb74-9d0007fd549a",
+        "name" : "testOPCUA",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.testOPCUA.>"
+      },
+      {
+        "id" : "281b61cb-65b2-4ba6-b1aa-f8bd1d771c81",
+        "name" : "testHIST",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.testHIST.>"
+      },
+      {
+        "id" : "37398ae5-2dd3-4a46-9a04-972273612193",
+        "name" : "Simtest3",
+        "retention_hours" : 720,
+        "topic" : "devicehub.alias.Simtest3.>"
+      },
+      {
+        "id" : "eaa64421-a00b-4736-85e6-a958ad0be953",
+        "name" : "Commplustest",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.Commplustest.>"
+      }
+    ],
+    "timeseries" : [
+      {
+        "id" : "13de703c-7d31-4522-bae4-a392fafd9a5f",
+        "name" : "test"
+      },
+      {
+        "id" : "16e2c807-4f69-4f7a-bb74-9d0007fd549a",
+        "name" : "testOPCUA"
+      },
+      {
+        "id" : "281b61cb-65b2-4ba6-b1aa-f8bd1d771c81",
+        "name" : "testHIST"
+      },
+      {
+        "id" : "37398ae5-2dd3-4a46-9a04-972273612193",
+        "name" : "Simtest3"
+      },
+      {
+        "id" : "eaa64421-a00b-4736-85e6-a958ad0be953",
+        "name" : "Commplustest"
+      }
+    ],
+    "timeseries_db" : {
+      "enabled" : true,
+      "source" : "internal"
+    },
+    "version" : {
+      "Git" : "9ea6b5b0fa",
+      "Version" : "2.5.2"
+    }
+  },
+  "sysinfo" : {
+    "labels" : [ ]
+  },
+  "version" : "2.0.0"
+}
