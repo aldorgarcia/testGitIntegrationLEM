@@ -19536,6 +19536,54 @@
         "dynamicAttributes" : [
           {
             "dataType" : "json",
+            "id" : "3a194d78-f023-463f-8a6a-714d1476237e",
+            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "Temperature",
+            "parentId" : "107c790d-8a27-423b-8183-6c076f0f74e1",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "devicehub.alias.{device}.Temperature",
+            "unit" : ""
+          }
+        ],
+        "flatten" : false,
+        "id" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+        "name" : "Pump-3",
+        "parameters" : [
+          {
+            "id" : "f521341d-d80d-4df9-b2ea-b1b63ec40c7b",
+            "name" : "device",
+            "ownerId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "ownerType" : 1,
+            "value" : "device1"
+          }
+        ],
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "353a3651-b890-412f-83cd-e1086915dc1f",
+            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "f074a5fc-957e-480d-9a7b-381956b17b91",
+            "type" : 0,
+            "value" : "$EDGE_DT_SYSTEM_TIME"
+          }
+        ],
+        "topic" : "digitaltwins.Pump3.Pump-3",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : [
+          {
+            "dataType" : "json",
             "id" : "3ad6da3f-f295-415e-b17d-d6197463655e",
             "instanceId" : "774c6017-40d1-4ce6-b2e2-04a398a49bc9",
             "modelId" : "00000000-0000-0000-0000-000000000000",
@@ -19582,6 +19630,97 @@
       }
     ],
     "models" : [
+      {
+        "assets" : "ASSET",
+        "connectorName" : "",
+        "description" : "",
+        "dynamicAttributes" : [
+          {
+            "dataType" : "json",
+            "id" : "107c790d-8a27-423b-8183-6c076f0f74e1",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "Temperature",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "devicehub.alias.{device}.Temperature",
+            "unit" : ""
+          }
+        ],
+        "hierarchyNodes" : [
+          {
+            "attributeId" : null,
+            "attributeType" : null,
+            "id" : "0c2498b0-0aa8-4e07-b9e7-d76c4359f41e",
+            "isFolder" : true,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "TT",
+            "nodeType" : "folder",
+            "parentId" : null,
+            "position" : 1
+          },
+          {
+            "attributeId" : "107c790d-8a27-423b-8183-6c076f0f74e1",
+            "attributeType" : "dynamic",
+            "id" : "34fbb34b-7a79-4eff-a28e-f069fa93c778",
+            "isFolder" : false,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "Temperature",
+            "nodeType" : "attribute",
+            "parentId" : "0c2498b0-0aa8-4e07-b9e7-d76c4359f41e",
+            "position" : 0
+          },
+          {
+            "attributeId" : "f074a5fc-957e-480d-9a7b-381956b17b91",
+            "attributeType" : "static",
+            "id" : "80da92da-640a-4732-b232-2c9135b12993",
+            "isFolder" : false,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "Device Description",
+            "nodeType" : "attribute",
+            "parentId" : null,
+            "position" : 0
+          }
+        ],
+        "id" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+        "image" : "",
+        "isUNS" : false,
+        "name" : "Pump3",
+        "parameters" : [
+          {
+            "id" : "ab645dc4-3809-4787-9763-7d4541ffcb6a",
+            "name" : "device",
+            "ownerId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "ownerType" : 0,
+            "value" : "device1"
+          }
+        ],
+        "source" : "external",
+        "staticAttributes" : [
+          {
+            "id" : "f074a5fc-957e-480d-9a7b-381956b17b91",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Device Description",
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "$EDGE_DT_SYSTEM_TIME"
+          }
+        ],
+        "transformationBackup" : [
+          {
+            "ID" : "e7f0d840-92cb-497f-87de-9e69ab971dc8",
+            "InstanceID" : "00000000-0000-0000-0000-000000000000",
+            "ModelID" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "Name" : "Transformation-01",
+            "Schema" : "{\r\n    \"timestamp\": \"$timestamp\"\r\n}",
+            "SchemaType" : "json"
+          }
+        ],
+        "version" : 0
+      },
       {
         "assets" : "ASSET",
         "connectorName" : "",
