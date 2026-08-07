@@ -1267,12 +1267,12 @@
     "rbac" : {
       "groups" : [
         [
-          "g_default_admins_group",
-          "r_default_admin_role"
-        ],
-        [
           "g_5d571169-35e9-4d40-b668-1e2b1564a208",
           "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091"
+        ],
+        [
+          "g_default_admins_group",
+          "r_default_admin_role"
         ]
       ],
       "policies" : [
@@ -1760,6 +1760,79 @@
         "transformationBackup" : null
       },
       {
+        "assetHierarchy" : {
+          "hierarchyMetadata" : {
+            "Area" : "pve-area",
+            "Enterprise" : "PVE",
+            "Plant" : "pve-plant",
+            "Region" : "PVE-Region",
+            "Site" : "pve-sit",
+            "Work Center" : "pve-work-center",
+            "Work Unit" : "instance-NEWEST"
+          },
+          "hierarchyPath" : "PVE.PVE_Region.pve_sit.pve_plant.pve_area.pve_work_center.instance_NEWEST"
+        },
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "instance-NEWEST",
+        "parameters" : [
+          {
+            "id" : "8106bf7f-f035-43d9-80ed-afebcadc5528",
+            "name" : "pve",
+            "ownerId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "ownerType" : 1,
+            "value" : "value"
+          }
+        ],
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "10ca443a-ce37-45bc-8d16-824d55d00cb3",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "7a4db0be-dd71-4e8d-a2e3-3ee81f8e44e3",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "d149ee66-7803-47ad-bc53-fe3ca083c203",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "df57da3d-d071-4396-bb0c-3a2bf5beb781",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.instance-NEWEST",
+        "transformationBackup" : null
+      },
+      {
         "dynamicAttributes" : [
           {
             "dataType" : "number",
@@ -2044,30 +2117,20 @@
         "isEnabled" : true,
         "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
         "name" : "instance",
-        "parameters" : null,
+        "parameters" : [
+          {
+            "id" : "3a506da3-2c83-468d-b815-e8546877b7b8",
+            "name" : "pve",
+            "ownerId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+            "ownerType" : 1,
+            "value" : "value"
+          }
+        ],
         "publishAttributes" : false,
         "source" : "local",
         "staticAttributes" : [
           {
-            "id" : "14b6c868-c8af-49a5-b147-76fa5e361384",
-            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
-            "key" : "Asset Hierarchy Path",
-            "modelId" : "00000000-0000-0000-0000-000000000000",
-            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
-            "type" : 0,
-            "value" : "{EDGE_DT_HIERARCHY_PATH}"
-          },
-          {
-            "id" : "60935436-c491-449a-9362-1454cf98760a",
-            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
-            "key" : "pve",
-            "modelId" : "00000000-0000-0000-0000-000000000000",
-            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
-            "type" : 0,
-            "value" : "{EDGE_DT_HIERARCHY_PATH}"
-          },
-          {
-            "id" : "6b2c3146-a94a-4735-9005-6d0f03749d71",
+            "id" : "1153e41e-bedc-4a05-aefb-8d98520509c6",
             "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
             "key" : "Asset Hierarchy Metadata",
             "modelId" : "00000000-0000-0000-0000-000000000000",
@@ -2076,7 +2139,25 @@
             "value" : "{EDGE_DT_HIERARCHY_METADATA}"
           },
           {
-            "id" : "7580b999-5d1d-4bd3-ae5f-cfe2ecfd07a9",
+            "id" : "24a741b4-6e2b-4546-ab33-a74ab2bb4500",
+            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "8f0e4c4e-e69c-49ae-ada1-793c287a3212",
+            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "a5330023-c041-4ff8-8ae8-95bae6246b1c",
             "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
             "key" : "Device Description",
             "modelId" : "00000000-0000-0000-0000-000000000000",
@@ -2097,42 +2178,42 @@
         "dynamicAttributes" : null,
         "hierarchyNodes" : [
           {
-            "attributeId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "attributeId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
             "attributeType" : "static",
-            "id" : "25332dd5-5442-4518-bf2c-801e0ded0e51",
+            "id" : "0dc5602e-47f3-4a6c-8522-bd8834b88a20",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
-            "name" : "pve",
+            "name" : "Asset Hierarchy Metadata",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           },
           {
             "attributeId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
             "attributeType" : "static",
-            "id" : "27ef2a5c-28cf-4cd9-96bc-54a17f936a8a",
+            "id" : "41affcb2-6d53-4039-b8e3-a126754d9f66",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
             "name" : "Asset Hierarchy Path",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           },
           {
-            "attributeId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "attributeId" : "6918c059-ed43-4716-92f2-c48654419a4e",
             "attributeType" : "static",
-            "id" : "7410348e-ab9a-4a5a-9d04-b997452af4d5",
+            "id" : "6ff92a26-6140-4514-8b46-469b85ee18c9",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
-            "name" : "Device Description",
+            "name" : "pve",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           },
           {
             "attributeId" : null,
             "attributeType" : null,
-            "id" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "id" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "isFolder" : true,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
             "name" : "static_attributes",
@@ -2141,14 +2222,14 @@
             "position" : 0
           },
           {
-            "attributeId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "attributeId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
             "attributeType" : "static",
-            "id" : "d95b6196-3fa6-4f57-a5e2-e3b9c0180592",
+            "id" : "ba22efe7-3f84-4b77-9615-af740dc037a7",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
-            "name" : "Asset Hierarchy Metadata",
+            "name" : "Device Description",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           }
         ],
@@ -2156,7 +2237,15 @@
         "image" : "",
         "isUNS" : false,
         "name" : "pve-model-1",
-        "parameters" : null,
+        "parameters" : [
+          {
+            "id" : "d738fe97-d4ac-44d5-b61f-f72870fc7244",
+            "name" : "pve",
+            "ownerId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "ownerType" : 0,
+            "value" : "value"
+          }
+        ],
         "source" : "external",
         "staticAttributes" : [
           {
