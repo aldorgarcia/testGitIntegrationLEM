@@ -19533,10 +19533,22 @@
         "transformationBackup" : null
       },
       {
+        "assetHierarchy" : {
+          "hierarchyMetadata" : {
+            "Area" : "Area 1",
+            "Enterprise" : "ACME",
+            "Plant" : "Assembly",
+            "Region" : "Riverside",
+            "Site" : "East Plant",
+            "Work Center" : "Pump 1",
+            "Work Unit" : "Pump-3"
+          },
+          "hierarchyPath" : "ACME.Riverside.East_Plant.Assembly.Area_1.Pump_1.Pump_3"
+        },
         "dynamicAttributes" : [
           {
             "dataType" : "json",
-            "id" : "3a194d78-f023-463f-8a6a-714d1476237e",
+            "id" : "ee13df34-94b2-4f07-a353-4767f10602cc",
             "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
             "modelId" : "00000000-0000-0000-0000-000000000000",
             "name" : "Temperature",
@@ -19557,7 +19569,7 @@
         "name" : "Pump-3",
         "parameters" : [
           {
-            "id" : "f521341d-d80d-4df9-b2ea-b1b63ec40c7b",
+            "id" : "81d6c046-3b9e-49f6-a2b7-489386e1d968",
             "name" : "device",
             "ownerId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
             "ownerType" : 1,
@@ -19568,13 +19580,31 @@
         "source" : "local",
         "staticAttributes" : [
           {
-            "id" : "353a3651-b890-412f-83cd-e1086915dc1f",
+            "id" : "3a1f36e2-e199-4bd3-a651-df2c5875dc2d",
+            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "563997be-3f9e-45f1-a1d7-ada5eaefed44",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "55d2b692-40f1-4f65-9a1e-30846bc51cbe",
             "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
             "key" : "Device Description",
             "modelId" : "00000000-0000-0000-0000-000000000000",
             "parentId" : "f074a5fc-957e-480d-9a7b-381956b17b91",
             "type" : 0,
             "value" : "$EDGE_DT_SYSTEM_TIME"
+          },
+          {
+            "id" : "57a50151-89f3-4684-9306-ad55cb2d5a2b",
+            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6d610e98-fc5f-4836-abe5-5de164950e5e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
           }
         ],
         "topic" : "digitaltwins.Pump3.Pump-3",
@@ -19630,6 +19660,22 @@
       }
     ],
     "models" : [
+      {
+        "assets" : "ASSET",
+        "connectorName" : "",
+        "description" : "",
+        "dynamicAttributes" : null,
+        "hierarchyNodes" : null,
+        "id" : "404d2c0b-be7e-4f52-838c-383a7efe8d3c",
+        "image" : "",
+        "isUNS" : false,
+        "name" : "Boiler",
+        "parameters" : null,
+        "source" : "local",
+        "staticAttributes" : null,
+        "transformationBackup" : null,
+        "version" : 0
+      },
       {
         "assets" : "ASSET",
         "connectorName" : "",
@@ -19700,13 +19746,31 @@
         "source" : "external",
         "staticAttributes" : [
           {
+            "id" : "563997be-3f9e-45f1-a1d7-ada5eaefed44",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "6d610e98-fc5f-4836-abe5-5de164950e5e",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
             "id" : "f074a5fc-957e-480d-9a7b-381956b17b91",
             "instanceId" : "00000000-0000-0000-0000-000000000000",
             "key" : "Device Description",
             "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
             "parentId" : "00000000-0000-0000-0000-000000000000",
             "type" : 0,
-            "value" : "$EDGE_DT_SYSTEM_TIME"
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
           }
         ],
         "transformationBackup" : [
@@ -33575,14 +33639,14 @@
   "sysinfo" : {
     "labels" : [
       {
-        "id" : "d47f5e6c-f4f1-4c82-8cec-a80eeca5fe45",
-        "key" : "environment1",
-        "value" : "production"
-      },
-      {
         "id" : "a03dcf6c-5a04-4093-a7b8-bca9aaa21a13",
         "key" : "environment2",
         "value" : "test"
+      },
+      {
+        "id" : "d47f5e6c-f4f1-4c82-8cec-a80eeca5fe45",
+        "key" : "environment1",
+        "value" : "production"
       }
     ]
   }
