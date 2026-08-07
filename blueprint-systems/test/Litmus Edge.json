@@ -19548,7 +19548,7 @@
         "dynamicAttributes" : [
           {
             "dataType" : "json",
-            "id" : "ee13df34-94b2-4f07-a353-4767f10602cc",
+            "id" : "7dc9dfa2-dd30-40c5-a454-1efdf74d9305",
             "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
             "modelId" : "00000000-0000-0000-0000-000000000000",
             "name" : "Temperature",
@@ -19569,7 +19569,7 @@
         "name" : "Pump-3",
         "parameters" : [
           {
-            "id" : "81d6c046-3b9e-49f6-a2b7-489386e1d968",
+            "id" : "089ec6ec-8a13-4390-933a-f293f17b68a3",
             "name" : "device",
             "ownerId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
             "ownerType" : 1,
@@ -19580,7 +19580,25 @@
         "source" : "local",
         "staticAttributes" : [
           {
-            "id" : "3a1f36e2-e199-4bd3-a651-df2c5875dc2d",
+            "id" : "22a815f3-db40-445d-b5eb-855b018b338a",
+            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "key" : "Instance ID",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "07948a6f-578c-4176-9420-2c18b8513ce5",
+            "type" : 0,
+            "value" : "{EDGE_DT_INSTANCE_ID}"
+          },
+          {
+            "id" : "28d83985-a56a-4614-899c-6034f293bd8a",
+            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "f074a5fc-957e-480d-9a7b-381956b17b91",
+            "type" : 0,
+            "value" : "{$EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "5900bd75-6ef1-4dff-af22-bc1d9ec7837c",
             "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
             "key" : "Asset Hierarchy Path",
             "modelId" : "00000000-0000-0000-0000-000000000000",
@@ -19589,22 +19607,22 @@
             "value" : "{EDGE_DT_HIERARCHY_PATH}"
           },
           {
-            "id" : "55d2b692-40f1-4f65-9a1e-30846bc51cbe",
-            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
-            "key" : "Device Description",
-            "modelId" : "00000000-0000-0000-0000-000000000000",
-            "parentId" : "f074a5fc-957e-480d-9a7b-381956b17b91",
-            "type" : 0,
-            "value" : "$EDGE_DT_SYSTEM_TIME"
-          },
-          {
-            "id" : "57a50151-89f3-4684-9306-ad55cb2d5a2b",
+            "id" : "6ddec574-9b46-4cb5-a138-7679ebde068f",
             "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
             "key" : "Asset Hierarchy Metadata",
             "modelId" : "00000000-0000-0000-0000-000000000000",
             "parentId" : "6d610e98-fc5f-4836-abe5-5de164950e5e",
             "type" : 0,
             "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "9417178c-367c-4236-85f7-33e86b8ef481",
+            "instanceId" : "5ab5aaef-714b-4b2e-bb2c-3a902cab870c",
+            "key" : "Device ID",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "b78cee87-b95e-4e60-9173-6d7a475c4735",
+            "type" : 0,
+            "value" : "{EDGE_DT_MODEL_ID}"
           }
         ],
         "topic" : "digitaltwins.Pump3.Pump-3",
@@ -19697,36 +19715,91 @@
         ],
         "hierarchyNodes" : [
           {
-            "attributeId" : null,
-            "attributeType" : null,
-            "id" : "0c2498b0-0aa8-4e07-b9e7-d76c4359f41e",
-            "isFolder" : true,
-            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
-            "name" : "TT",
-            "nodeType" : "folder",
-            "parentId" : null,
-            "position" : 1
-          },
-          {
-            "attributeId" : "107c790d-8a27-423b-8183-6c076f0f74e1",
-            "attributeType" : "dynamic",
-            "id" : "34fbb34b-7a79-4eff-a28e-f069fa93c778",
+            "attributeId" : "563997be-3f9e-45f1-a1d7-ada5eaefed44",
+            "attributeType" : "static",
+            "id" : "7da1479d-6ab4-445d-aaf1-3d76e196442d",
             "isFolder" : false,
             "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
-            "name" : "Temperature",
+            "name" : "Asset Hierarchy Path",
             "nodeType" : "attribute",
-            "parentId" : "0c2498b0-0aa8-4e07-b9e7-d76c4359f41e",
+            "parentId" : "b5b6f259-99a0-4e40-acb0-649fee87837e",
+            "position" : 0
+          },
+          {
+            "attributeId" : "b78cee87-b95e-4e60-9173-6d7a475c4735",
+            "attributeType" : "static",
+            "id" : "7e8f6904-9134-4ea4-bf27-1e0ca7660dae",
+            "isFolder" : false,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "Device ID",
+            "nodeType" : "attribute",
+            "parentId" : "b5b6f259-99a0-4e40-acb0-649fee87837e",
+            "position" : 0
+          },
+          {
+            "attributeId" : "6d610e98-fc5f-4836-abe5-5de164950e5e",
+            "attributeType" : "static",
+            "id" : "7eb5d186-6775-425b-b30e-736520493883",
+            "isFolder" : false,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "Asset Hierarchy Metadata",
+            "nodeType" : "attribute",
+            "parentId" : "b5b6f259-99a0-4e40-acb0-649fee87837e",
             "position" : 0
           },
           {
             "attributeId" : "f074a5fc-957e-480d-9a7b-381956b17b91",
             "attributeType" : "static",
-            "id" : "80da92da-640a-4732-b232-2c9135b12993",
+            "id" : "7f3405e4-b736-4c16-b73d-b9d87aee42dc",
             "isFolder" : false,
             "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
             "name" : "Device Description",
             "nodeType" : "attribute",
+            "parentId" : "b5b6f259-99a0-4e40-acb0-649fee87837e",
+            "position" : 0
+          },
+          {
+            "attributeId" : "07948a6f-578c-4176-9420-2c18b8513ce5",
+            "attributeType" : "static",
+            "id" : "836186cb-a9fe-404f-841f-3b76c497d72f",
+            "isFolder" : false,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "Instance ID",
+            "nodeType" : "attribute",
+            "parentId" : "b5b6f259-99a0-4e40-acb0-649fee87837e",
+            "position" : 0
+          },
+          {
+            "attributeId" : null,
+            "attributeType" : null,
+            "id" : "b5b6f259-99a0-4e40-acb0-649fee87837e",
+            "isFolder" : true,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "static_attributes",
+            "nodeType" : "folder",
             "parentId" : null,
+            "position" : 0
+          },
+          {
+            "attributeId" : null,
+            "attributeType" : null,
+            "id" : "bf165cc9-f75c-43b5-8e1f-d3012e5d528e",
+            "isFolder" : true,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "dynamic_attributes",
+            "nodeType" : "folder",
+            "parentId" : null,
+            "position" : 0
+          },
+          {
+            "attributeId" : "107c790d-8a27-423b-8183-6c076f0f74e1",
+            "attributeType" : "dynamic",
+            "id" : "d6f88ca8-0108-4bd0-b71c-dc7ce78b639c",
+            "isFolder" : false,
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "name" : "Temperature",
+            "nodeType" : "attribute",
+            "parentId" : "bf165cc9-f75c-43b5-8e1f-d3012e5d528e",
             "position" : 0
           }
         ],
@@ -19746,6 +19819,15 @@
         "source" : "external",
         "staticAttributes" : [
           {
+            "id" : "07948a6f-578c-4176-9420-2c18b8513ce5",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Instance ID",
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_INSTANCE_ID}"
+          },
+          {
             "id" : "563997be-3f9e-45f1-a1d7-ada5eaefed44",
             "instanceId" : "00000000-0000-0000-0000-000000000000",
             "key" : "Asset Hierarchy Path",
@@ -19762,6 +19844,15 @@
             "parentId" : "00000000-0000-0000-0000-000000000000",
             "type" : 0,
             "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "b78cee87-b95e-4e60-9173-6d7a475c4735",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Device ID",
+            "modelId" : "c80ebfdd-a689-40cd-9a53-52ed2025c58b",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_MODEL_ID}"
           },
           {
             "id" : "f074a5fc-957e-480d-9a7b-381956b17b91",
