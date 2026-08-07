@@ -2,7 +2,7 @@
   "access" : {
     "access_api_keys" : [
       {
-        "api_key" : "d0b487909548176f9b7b3e0b1241e3cd80dcca7951d404eb213f54f198d0e9408b3f67b030d56470faef9e66755062cf3e77d4edccc5c52d6ade1f38f1847a91",
+        "api_key" : "9f019b895a3c8d18113ed95d10fe74c33f30c564368d2e1c72519d5e04ed31a1d095dd5ad217f75fabfabc149357612a8301f163b399f4d420514ec948f627e4",
         "read_access_topics" : [
           ">"
         ],
@@ -11,7 +11,7 @@
     ],
     "accounts" : [
       {
-        "APIKey" : "96c6301bdbe8159f6fdead4fcdff26543c7362ea9de20aba48d8de857d41d6d601da6d3d1d6a772028a1f28987eae5d9eb86a3e1e2ca1981ba6fc3f6df0b8d0e",
+        "APIKey" : "00c0f24f3406f54823af1579665ec0eb462e224d1fd721da7793cae5e1c70e17d0e94618bb45dd8c8854f0e13d8acbb3c60f0802d6c00b152dec40c64a7acdaf",
         "Enabled" : true,
         "ID" : "ea18fa52-172b-4c1d-a2ea-f105fbb29b63",
         "Name" : "PVEAccount"
@@ -27,6 +27,23 @@
     }
   },
   "analytics2" : {
+    "AIModels" : [
+      {
+        "APIKey" : "10c422e1f0b7416893c4acb9df92654ab5bdda2a4b7b5753e295418769785a35ed718784da017145fc5d",
+        "CfAPIKey" : "",
+        "ModelName" : "claude-3-7-sonnet-20250219",
+        "ModelResponsesPayload" : {
+          "model" : "",
+          "stream" : false
+        },
+        "ModelSpecificURL" : "",
+        "ModelTextGenDataPayload" : null,
+        "ModelVisionDataPayload" : null,
+        "Provider" : "Anthropic API",
+        "URL" : "https://api.anthropic.com/v1",
+        "UniqueName" : "test"
+      }
+    ],
     "Git" : "HEAD",
     "Positions" : [
       {
@@ -1234,7 +1251,8 @@
         }
       }
     ],
-    "Version" : "latest"
+    "Version" : "latest",
+    "hasEncryptedValues" : true
   },
   "auth" : {
     "groups" : [
@@ -1253,7 +1271,7 @@
       {
         "clientId" : "someClietnId",
         "clientName" : "CLientName",
-        "clientSecret" : "07589cb1aa15cb4562f796eaeed9465f922a9e790f625a730e26471fb52cf2b8e09bd622a35523fae7e0996e",
+        "clientSecret" : "249b5c408a715e92207a3a41e45edb0b0a3655993ecb999da8ec3703896751db3c3055b611fa173894fae9e1",
         "groups" : [
           "5d571169-35e9-4d40-b668-1e2b1564a208",
           "default_admins_group"
@@ -1266,7 +1284,7 @@
     "providers" : [
       {
         "bindDN" : "cn=admin,dc=example,dc=org",
-        "bindDNPassword" : "1a1d511078931e130cd22b34abd2a19a3cc47accb17d0aeefa365106c48f254997",
+        "bindDNPassword" : "5a2dff9a0382a6a4a468f89ae1913d46de1fce28a31b1ae03e513cafcab1e22c91",
         "groupAttrGroup" : "member",
         "groupAttrName" : "cn",
         "groupAttrUser" : "DN",
@@ -1301,6 +1319,51 @@
         ]
       ],
       "policies" : [
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "lic",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "dm",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "support",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "View"
+        ],
         [
           "r_default_admin_role",
           "access",
@@ -1585,51 +1648,6 @@
           "r_default_admin_role",
           "sysinfo",
           "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "lic",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "sysinfo",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "AcceptEula"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "ChangePassword"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "dm",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "support",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "opcua",
-          "Modify"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "opcua",
-          "View"
         ]
       ]
     },
@@ -1649,7 +1667,7 @@
     "hasEncryptedValues" : true,
     "instances" : [
       {
-        "config" : "1eb02dcfc441742eb0a610d854e63b6acf0f38bb2bb385fd74ce352e516acb072230049f6039700ec9fcb1c9ae517ed48830e9cb05aecee2bbbe5c296320c132cdcb3bd90e9dc5d29e58b4e64b83831cdce1768071eadc2054057007f2eac607959b79d38c92a1f122dfa9a5fce7f8de7c738f72b3460d918d4bf4932df8cb3ff688d0cc7d7ca2985292b075d795bc1e7de75466e5d7161bf97cde8a5bd8ae145b7db0fccda95c7a338f45bd3aaf17add2864093a2facaa9585f648a72ab3a06a40da7e5bcb4016dea5003ddd4b2410e31004c37a0133eac7025fa175406b76d3ad0e55b18c4ab21a398949a3b5e915ccca1e9be3275339b5f4a7d6549da7fdde6f3c94c0eeaa69d5ff33f7a8968332697fe777c9c405d5b01b3e1d3dbdaf72bf8aa00874ec33922da",
+        "config" : "e8c0c9a91047f2774323c3eddb5b4945b86ea6f9592bc180d6ab59002a87dfd7620fadd2cc9b6f905bfd588bff2aa4ebaa5d53ac9e2603599de4d4a984df4c7df91bde817e6da74efbba04e5a4bc54b0a0a45645b39744a30c671aa932db33c4a8568cff4f3a1594dfc749e4445804b5bc155a5d3d4b43dd9228a854da8ff6661f40008c845870f85aff7008a6b36811cd2e5c7afc94a76d739f7e96ccca4061414d71d66e5f1cac378b8b10525543848570531eb74a6354569e6b647cf2ba566d092a6fa57606ce4560363e25dedd9598317117a33fe5d3a5d408f554eeecd6a2ae5fdb0bcaf04608d4bff060a67d8663bff5e7861b32d163b8025923fb0b2a7d2029b84e7d3b15c5f117b9412eaa2b35741b4ab98f767d738ad22a956f3fdca66e58f3f40a4465a4",
         "enabled" : false,
         "id" : "01a9278c-7e98-4e3e-bc00-e7f43d96f251",
         "isSystem" : false,
@@ -1657,7 +1675,7 @@
         "topics" : [ ]
       },
       {
-        "config" : "2e638b0c2df2847e18479696e39dedccc4d92a1bef4f96224b7424a43cec1c7ebd0a38e22a8d38c1c3166c89718f05b6d082d72e40b5d06141cee0146e4fb89b82fa038cc6c6ba1f1125dd6da31b6d1b25c38d84eededfab0aaa49893815c45c33637dd9d0dfaac7f5c3153cb8f75d8f1fceeb8a40a481dab5ed5e15eba5a0f504aaeb65a8e309257a7cd36fcff54522021cec3c8e3c71d848c805e29781c9c42f1aca9405b74feb82876b1ffbc165f694e7ee200bccd731da30df1ed03fefaa91c27f9f62052b5dc87fcedec58916c719a1e9e2697587477190d791bdf30cad918e049ac40908fef995cfe6c43a5f033d113a8a4d618b67bb7ddb8871df946e83c110d89189ffcab16de689cfbddfd93159bd9347159945b89a5d39e2bd2cbf78e2234d3d5d309ef9ad49ed9d15e5e642833c865be948a1052c271d71ae60ab43303e1933fa29814ee4eabb0847a42a99a212fda6395049300efd91a1b469fdc0216ff637eda954cac1c9a895e09fc84c653cf7e9c9d51090d0b0eb6ee8d102a0acd9fd49c5e9216b718ad9eaaddccfc74269",
+        "config" : "2dcccb0ad1018d5d4d7b80f6e300b4f901455bfa9a3e93e2f0b887e64c13ba8724ab5b1372d0876a87cb48c8f8cff9423dc635e35413ee2d9e8f2a3d0698788d49df55d794fa02e3110391ad344e334e6f45ed84169db67d66a4b3ff8b56d32c03cf3388b20e57d15d6aaea93e6b14adb948b7e9ff38f584121a8a4d768057d8e91d95da76a346103e993c4db01c9b695d0b40b9edce2e8d5f68c5556c571af25f07ef0cb488f17f94bf1607b5927e7f206ab4b8d135f4be2b0f13b5fb745846d0642db989d8b9ec362b3793d13ca5b2b4dea39e864b9700d4f8cb1ef0174edecce6e072aa7da87fae2e6e898016bc3994d382cdac1180bad2e38d735480ee6a5557a3000530190e6c28e67b048cdc2afb08484164c5c794a6829de55ff766dbeeb38c7ecd9c22489cf5998d9264c3cce17279fae5fd64eb7c85e9245a55823049ac232ec201e989424bde7ff060af0b081a11a3a14296cb880975b8e5d6e90d74ef3e60c7bca92bde6de82db6b818d52c3f815c218b94aae6370c3d336e9890e78d81e339a5d1a4b8939b6feb23da68e7fee7",
         "enabled" : false,
         "id" : "5ccfa2b5-04b4-4405-9306-ea7d65d46eff",
         "isSystem" : false,
@@ -1665,7 +1683,7 @@
         "topics" : [ ]
       },
       {
-        "config" : "cf37be8d1d98b9546a8d4004d40a47bd6c917b9c50a94eadd234eb9687b6d9109bfb89fea5b51e07f51bd0b1cd9b973e227d3516c40cf73e1784eba5343e519f5299f4402c3da4cd7eaf245a35c86682e88aec98b489e6f6e859dc128ca01063594e18de4f6e38a7a2dfd10776d1092c71c3dbf326256d506d29fb5d7761be2c6142d4f38fe505fe3db512cddd4615bfbab8132df676bd79a2935181806d2f3bc0586b9622526f675df4346dfe9b103b18de8bc77a5e9e241055e6a4e341fa44327b34586589b6e5c0f4964d4bff07e5e3ee02ac58fb3c7f10d89cbce5b63a0d98709c2b315b5905fc8d4c703c58b1a40daefa3df0f57387460295a61f1574becf9b923c756092062ea1b6b9795761f8ff1c64243f8228315a2de9d6efc45c725118802a3624",
+        "config" : "941a68d92766aa16f3c2a3dba2d60974414fecb9c7d3e458b3b7f37f49914500f074b9c778b295433084368ce03a9499af2bf614f928a3b5b6489925ad5dc76b5fad2a4496a8a1e225b2c22a26fb6fab66b1cd135d053895f345456a3314338c1b0158bb104194a07c8a756f61831aa1c4020d8f5396fb7d89236dfa634cd64438887ecdafc437e6a9cd60f20bc907d4e6d6f73bbd736514ab872ac37d9fb4d3cd550cd6bf9985d07541bae5d71eec4195fb1cf7a310709776fae2220a8130687922c36530d41ea1c4003359b7f77b468169c171d1119d8e6ca3ed3d56368d6101477676c2553991dc34981fe297d8438df22efcbefe2d177869e993835372a0ea8f2a73481fabe8f6f3e011136862a758c19f8e22aefb8cebf00d43f0c6dddd9f4101ef27e8",
         "enabled" : false,
         "id" : "dde05df3-dca4-4f90-8a53-a8d43b36802c",
         "isSystem" : false,
@@ -1921,6 +1939,58 @@
         "transformationBackup" : null
       },
       {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "388c9f0b-0bbc-4249-ab3d-c870e071f817",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "instance-NEWEST",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "staticAttributes" : [
+          {
+            "id" : "261eb265-8d55-4df5-ba96-96ccc620769a",
+            "instanceId" : "388c9f0b-0bbc-4249-ab3d-c870e071f817",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "3b0c77ad-775b-4cf2-822b-7068b2d4180a",
+            "instanceId" : "388c9f0b-0bbc-4249-ab3d-c870e071f817",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "4e404cce-7725-4b40-ac43-bf7feeea1cd3",
+            "instanceId" : "388c9f0b-0bbc-4249-ab3d-c870e071f817",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "73f0f2f4-0d5b-40cd-9c18-b265e9bb0c29",
+            "instanceId" : "388c9f0b-0bbc-4249-ab3d-c870e071f817",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.instance-NEWEST",
+        "transformationBackup" : null
+      },
+      {
         "dynamicAttributes" : [
           {
             "dataType" : "",
@@ -1957,6 +2027,58 @@
           }
         ],
         "topic" : "digitaltwins.test.test-inst",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "53d1fb5e-5d2b-4d48-b2b1-0fa0bf358b45",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "NUEVO",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "staticAttributes" : [
+          {
+            "id" : "44e7f310-9ec8-4fe5-8ac0-9e76d7dbfa72",
+            "instanceId" : "53d1fb5e-5d2b-4d48-b2b1-0fa0bf358b45",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "8e43b9e3-ad6f-4e01-9b91-1d55373911de",
+            "instanceId" : "53d1fb5e-5d2b-4d48-b2b1-0fa0bf358b45",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "958e1a28-42b1-47e8-8a20-da9d15c58310",
+            "instanceId" : "53d1fb5e-5d2b-4d48-b2b1-0fa0bf358b45",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "a616f45b-5aec-4b3f-bda0-4265eb27f371",
+            "instanceId" : "53d1fb5e-5d2b-4d48-b2b1-0fa0bf358b45",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.NUEVO",
         "transformationBackup" : null
       },
       {
@@ -2048,6 +2170,58 @@
           }
         ],
         "topic" : "digitaltwins.CNC.machine1_0_pub",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "6b2d7f93-94c7-4c78-b11e-52eb4e7320b9",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "instance-NEW",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "staticAttributes" : [
+          {
+            "id" : "0f9a54da-b319-476f-915d-6b93fabcfc91",
+            "instanceId" : "6b2d7f93-94c7-4c78-b11e-52eb4e7320b9",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "ab2144ac-90dd-44b3-82af-bf4243d70ab4",
+            "instanceId" : "6b2d7f93-94c7-4c78-b11e-52eb4e7320b9",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "c4ce40ac-eef8-413c-b421-98fc2a8d04db",
+            "instanceId" : "6b2d7f93-94c7-4c78-b11e-52eb4e7320b9",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "dd542bb1-e948-4bd7-9795-3b9e055ace86",
+            "instanceId" : "6b2d7f93-94c7-4c78-b11e-52eb4e7320b9",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.instance-NEW",
         "transformationBackup" : null
       },
       {
@@ -2150,11 +2324,19 @@
         "isEnabled" : true,
         "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
         "name" : "instance",
-        "parameters" : null,
+        "parameters" : [
+          {
+            "id" : "e3a8e07c-a390-433a-8123-2e64ef5d88af",
+            "name" : "pve",
+            "ownerId" : "a7a5d26b-f1e4-46fe-80f8-fda24d61567c",
+            "ownerType" : 1,
+            "value" : "value"
+          }
+        ],
         "publishAttributes" : false,
         "staticAttributes" : [
           {
-            "id" : "6d333159-7999-49c5-b638-33c33b2f6730",
+            "id" : "0d348666-c1ff-4db5-9623-c7f5579a2fb8",
             "instanceId" : "a7a5d26b-f1e4-46fe-80f8-fda24d61567c",
             "key" : "Device Description",
             "modelId" : "00000000-0000-0000-0000-000000000000",
@@ -2163,16 +2345,16 @@
             "value" : "{EDGE_DT_SYSTEM_TIME}"
           },
           {
-            "id" : "7db9264f-9173-49ee-8887-0db56edb59da",
+            "id" : "44a9e975-4d97-462e-9bf8-75a39121d168",
             "instanceId" : "a7a5d26b-f1e4-46fe-80f8-fda24d61567c",
-            "key" : "Asset Hierarchy Path",
+            "key" : "Asset Hierarchy Metadata",
             "modelId" : "00000000-0000-0000-0000-000000000000",
-            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
             "type" : 0,
-            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
           },
           {
-            "id" : "7fcdc974-456c-4cdb-b741-9ad726229890",
+            "id" : "506462ef-4041-40d4-8073-2ef5dd918583",
             "instanceId" : "a7a5d26b-f1e4-46fe-80f8-fda24d61567c",
             "key" : "pve",
             "modelId" : "00000000-0000-0000-0000-000000000000",
@@ -2181,13 +2363,13 @@
             "value" : "{EDGE_DT_HIERARCHY_PATH}"
           },
           {
-            "id" : "925c63c3-9e56-48e9-ac7a-09224e3b5e46",
+            "id" : "d07ed187-bc1e-40c0-ae2d-e4f8a3f6fae6",
             "instanceId" : "a7a5d26b-f1e4-46fe-80f8-fda24d61567c",
-            "key" : "Asset Hierarchy Metadata",
+            "key" : "Asset Hierarchy Path",
             "modelId" : "00000000-0000-0000-0000-000000000000",
-            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
             "type" : 0,
-            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
           }
         ],
         "topic" : "digitaltwins.pve-model-1.instance",
@@ -2359,6 +2541,58 @@
         "staticAttributes" : null,
         "topic" : "digitaltwins.Model-1.Line02",
         "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "f73e723a-6dfb-4cc0-acfe-ee03581a9e94",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "instanceBRAND",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "staticAttributes" : [
+          {
+            "id" : "0637b654-2519-4fb0-b025-16c0e0d9e3f6",
+            "instanceId" : "f73e723a-6dfb-4cc0-acfe-ee03581a9e94",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "35fdbdd3-467a-4e15-93c0-4e3539cd4359",
+            "instanceId" : "f73e723a-6dfb-4cc0-acfe-ee03581a9e94",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "5c329ae3-1fd6-433b-b6b0-fdb3c19efb40",
+            "instanceId" : "f73e723a-6dfb-4cc0-acfe-ee03581a9e94",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "ef8ae301-f57e-4d34-9e3c-91e7d143a44c",
+            "instanceId" : "f73e723a-6dfb-4cc0-acfe-ee03581a9e94",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.instanceBRAND",
+        "transformationBackup" : null
       }
     ],
     "models" : [
@@ -2461,42 +2695,42 @@
         "dynamicAttributes" : null,
         "hierarchyNodes" : [
           {
-            "attributeId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "attributeId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
             "attributeType" : "static",
-            "id" : "25332dd5-5442-4518-bf2c-801e0ded0e51",
+            "id" : "0dc5602e-47f3-4a6c-8522-bd8834b88a20",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
-            "name" : "pve",
+            "name" : "Asset Hierarchy Metadata",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           },
           {
             "attributeId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
             "attributeType" : "static",
-            "id" : "27ef2a5c-28cf-4cd9-96bc-54a17f936a8a",
+            "id" : "41affcb2-6d53-4039-b8e3-a126754d9f66",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
             "name" : "Asset Hierarchy Path",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           },
           {
-            "attributeId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "attributeId" : "6918c059-ed43-4716-92f2-c48654419a4e",
             "attributeType" : "static",
-            "id" : "7410348e-ab9a-4a5a-9d04-b997452af4d5",
+            "id" : "6ff92a26-6140-4514-8b46-469b85ee18c9",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
-            "name" : "Device Description",
+            "name" : "pve",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           },
           {
             "attributeId" : null,
             "attributeType" : null,
-            "id" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "id" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "isFolder" : true,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
             "name" : "static_attributes",
@@ -2505,14 +2739,14 @@
             "position" : 0
           },
           {
-            "attributeId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "attributeId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
             "attributeType" : "static",
-            "id" : "d95b6196-3fa6-4f57-a5e2-e3b9c0180592",
+            "id" : "ba22efe7-3f84-4b77-9615-af740dc037a7",
             "isFolder" : false,
             "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
-            "name" : "Asset Hierarchy Metadata",
+            "name" : "Device Description",
             "nodeType" : "attribute",
-            "parentId" : "9ec3ff12-99a6-475a-a150-6f9f09ce2bba",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
             "position" : 0
           }
         ],
