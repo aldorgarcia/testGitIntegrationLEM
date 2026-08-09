@@ -1267,12 +1267,12 @@
     "rbac" : {
       "groups" : [
         [
-          "g_default_admins_group",
-          "r_default_admin_role"
-        ],
-        [
           "g_5d571169-35e9-4d40-b668-1e2b1564a208",
           "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091"
+        ],
+        [
+          "g_default_admins_group",
+          "r_default_admin_role"
         ]
       ],
       "policies" : [
