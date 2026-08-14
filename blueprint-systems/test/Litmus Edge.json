@@ -19706,7 +19706,16 @@
         "parameters" : null,
         "source" : "local",
         "staticAttributes" : null,
-        "transformationBackup" : null,
+        "transformationBackup" : [
+          {
+            "ID" : "2fce96b6-a69c-4816-81a0-aad7de2d6de7",
+            "InstanceID" : "00000000-0000-0000-0000-000000000000",
+            "ModelID" : "404d2c0b-be7e-4f52-838c-383a7efe8d3c",
+            "Name" : "TC1",
+            "Schema" : "{\r\n    \"key\": [\r\n        \"$timestamp\",\r\n        \"$value\",\r\n        \"$metadata\",\r\n    {\r\n        \"key2\": \"$timestamp\",\r\n        \"key3\": \"$value\",\r\n        \"key4\": \"$metadata\"\r\n    }\r\n    ]\r\n}",
+            "SchemaType" : "json"
+          }
+        ],
         "version" : 0
       },
       {
