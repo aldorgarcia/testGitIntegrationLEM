@@ -1,0 +1,2707 @@
+{
+  "analytics2" : {
+    "Git" : "97c8e09334",
+    "Positions" : [
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "0095EEC7-B2E2-4A46-B035-6A0DFF75A478",
+        "Left" : 163,
+        "Top" : 2034
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "0FAD8734-DBF1-4112-986E-1983DEC0AF60",
+        "Left" : -185.72021,
+        "Top" : 1271.7354
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "1E6B10DD-396A-4D5D-98A1-A2A20E74E327",
+        "Left" : 157.27979,
+        "Top" : 1289.7354
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "23591158-B3A0-4D30-A381-30AF1A8F52A7",
+        "Left" : -668,
+        "Top" : 2016
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "29D636B2-4C91-4D71-B037-3EFB840E8401",
+        "Left" : 147,
+        "Top" : 516
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "2E3295C7-F4CB-43DE-B1CC-B0FBFBB508E3",
+        "Left" : -1133.7202,
+        "Top" : 1551.7354
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "31CCFE31-3D19-4E57-9482-604C42B806FD",
+        "Left" : -684,
+        "Top" : 778
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "35A6DAC2-5D7A-4091-A0E7-8C1EB4634EF8",
+        "Left" : 1428.575,
+        "Top" : 58.465874
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "362534DB-87A6-488C-991A-7BB2EB0F369C",
+        "Left" : -1144,
+        "Top" : 778
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "3F81F5F4-0392-4945-9000-2C2AC19B06D7",
+        "Left" : -673.7202,
+        "Top" : 1551.7354
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "4061F5B9-E0AF-4F82-98D0-F0411BAA05A2",
+        "Left" : -1111,
+        "Top" : -234
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "40CB7006-808E-4F75-99CB-C4EA7A4F7886",
+        "Left" : 662.47144,
+        "Top" : -153.06746
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "43C5BDA1-F75C-497D-89D4-A0C21E61F6E3",
+        "Left" : -160.45831,
+        "Top" : 18.401978
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "470A4898-3A8B-4755-A492-466C8A5A645E",
+        "Left" : 136,
+        "Top" : 760
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "485BBEF1-0A9F-4999-93D7-53C14A0FE962",
+        "Left" : 732.23334,
+        "Top" : 220
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "550C73DF-E00E-4397-BF45-40C92217F95D",
+        "Left" : -648.4583,
+        "Top" : 18.401978
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "61D4D8D4-84A7-4822-A1AD-41666FE0742E",
+        "Left" : 977.5861,
+        "Top" : 272.32303
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "621F934F-2881-4B13-88E3-3A86375E8A20",
+        "Left" : -673.7202,
+        "Top" : 1271.7354
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "62D39413-FC79-4843-8C6E-A76F0D087C70",
+        "Left" : -182,
+        "Top" : 2290
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "69FFF21E-2105-4808-9EA8-EA4449F193BC",
+        "Left" : 1104.7572,
+        "Top" : -82.781746
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "727738B6-370B-4A6A-BDDA-9C638960529F",
+        "Left" : -196,
+        "Top" : 498
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "7D92803C-9859-4E2C-84A7-DA1AB7E487CE",
+        "Left" : -668,
+        "Top" : 2296
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "83B2FA03-A3CA-4929-A4EB-FDA6B5D9E5EA",
+        "Left" : -180,
+        "Top" : 2016
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "87861B39-01EB-4879-A86A-A2C7E6E9301D",
+        "Left" : -684,
+        "Top" : 498
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "AB39B3E4-4B3E-42E8-82ED-6C8501EEBBB4",
+        "Left" : -163,
+        "Top" : -224
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "ACBC4A0C-1A68-4457-9C7C-A436F207F8DF",
+        "Left" : -1128,
+        "Top" : 2016
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "BC37BED2-80E9-477E-BEC8-CA77F5920E55",
+        "Left" : -668,
+        "Top" : -207
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "C081872F-1938-45A3-9643-BC6E93F6B88D",
+        "Left" : 162,
+        "Top" : -120
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "C396B224-513D-45EB-A087-3B981B096C74",
+        "Left" : -1128,
+        "Top" : 2296
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "D398A6CA-879F-460D-8FF5-66983DD40019",
+        "Left" : -1144,
+        "Top" : 498
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "D4A91E4D-9EDA-4DCD-A421-D66D3564B37C",
+        "Left" : 1607.6143,
+        "Top" : -19.924603
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "D643B8B4-4119-4ADD-852C-18DEE760A8B5",
+        "Left" : 1833.575,
+        "Top" : 46.465874
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "DA13BD6D-E62F-4109-90A8-758A12491696",
+        "Left" : -187.72021,
+        "Top" : 1545.7354
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "DAE33140-21D3-4155-A05B-900DFA23A29E",
+        "Left" : -198,
+        "Top" : 772
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "DED37CEE-F48B-4F8A-AB53-A2D60DD0BE97",
+        "Left" : -1133.7202,
+        "Top" : 1271.7354
+      },
+      {
+        "GroupName" : "default",
+        "ID" : "E6A3507C-A729-48DF-BD57-96A5A406AFF3",
+        "Left" : 1011.04645,
+        "Top" : 64.398415
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "EDF6E8E4-84D3-4716-B450-AF0AECA1BF8A",
+        "Left" : 146.27979,
+        "Top" : 1533.7354
+      },
+      {
+        "GroupName" : "DT_write_test",
+        "ID" : "FF235FDD-5730-46E5-9A60-32012E8569CB",
+        "Left" : -1108.4583,
+        "Top" : 18.401978
+      }
+    ],
+    "Processors" : [
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1_0"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "0095EEC7-B2E2-4A46-B035-6A0DFF75A478",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT full payload subscribe (copy 6)",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write.CNC.machine1_5_pub"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "0FAD8734-DBF1-4112-986E-1983DEC0AF60",
+        "InputEvents" : [
+          "621F934F-2881-4B13-88E3-3A86375E8A20"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "write.CNC.machine1_5_pub",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1_5_pub"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "1E6B10DD-396A-4D5D-98A1-A2A20E74E327",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT full payload subscribe (copy 4)",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "23591158-B3A0-4D30-A381-30AF1A8F52A7",
+        "InputEvents" : [
+          "ACBC4A0C-1A68-4457-9C7C-A436F207F8DF"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload (copy 6)",
+        "Outputs" : [
+          "83B2FA03-A3CA-4929-A4EB-FDA6B5D9E5EA"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1_0_pub"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "29D636B2-4C91-4D71-B037-3EFB840E8401",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT full payload subscribe (copy 2)",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "2E3295C7-F4CB-43DE-B1CC-B0FBFBB508E3",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy 5)",
+        "Outputs" : [
+          "3F81F5F4-0392-4945-9000-2C2AC19B06D7"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "31CCFE31-3D19-4E57-9482-604C42B806FD",
+        "InputEvents" : [
+          "362534DB-87A6-488C-991A-7BB2EB0F369C"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload (copy)",
+        "Outputs" : [
+          "DAE33140-21D3-4155-A05B-900DFA23A29E"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "35A6DAC2-5D7A-4091-A0E7-8C1EB4634EF8",
+        "InputEvents" : [
+          "E6A3507C-A729-48DF-BD57-96A5A406AFF3"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload",
+        "Outputs" : [
+          "D643B8B4-4119-4ADD-852C-18DEE760A8B5"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "362534DB-87A6-488C-991A-7BB2EB0F369C",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy 3)",
+        "Outputs" : [
+          "31CCFE31-3D19-4E57-9482-604C42B806FD"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "3F81F5F4-0392-4945-9000-2C2AC19B06D7",
+        "InputEvents" : [
+          "2E3295C7-F4CB-43DE-B1CC-B0FBFBB508E3"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload (copy 5)",
+        "Outputs" : [
+          "DA13BD6D-E62F-4109-90A8-758A12491696"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "4061F5B9-E0AF-4F82-98D0-F0411BAA05A2",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy)",
+        "Outputs" : [
+          "BC37BED2-80E9-477E-BEC8-CA77F5920E55"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "40CB7006-808E-4F75-99CB-C4EA7A4F7886",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574]",
+        "Outputs" : [
+          "69FFF21E-2105-4808-9EA8-EA4449F193BC"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write_pollonce.CNC.machine1_5"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "43C5BDA1-F75C-497D-89D4-A0C21E61F6E3",
+        "InputEvents" : [
+          "550C73DF-E00E-4397-BF45-40C92217F95D"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "write_pollonce.CNC.machine1_5",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1_0_pub.>"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "470A4898-3A8B-4755-A492-466C8A5A645E",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT full payload subscribe (copy 3)",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "485BBEF1-0A9F-4999-93D7-53C14A0FE962",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : false,
+        "Name" : "DT full payload subscribe",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "550C73DF-E00E-4397-BF45-40C92217F95D",
+        "InputEvents" : [
+          "FF235FDD-5730-46E5-9A60-32012E8569CB"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload (copy 2)",
+        "Outputs" : [
+          "43C5BDA1-F75C-497D-89D4-A0C21E61F6E3"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1.>"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "61D4D8D4-84A7-4822-A1AD-41666FE0742E",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT publish attributes",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "621F934F-2881-4B13-88E3-3A86375E8A20",
+        "InputEvents" : [
+          "DED37CEE-F48B-4F8A-AB53-A2D60DD0BE97"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload (copy 4)",
+        "Outputs" : [
+          "0FAD8734-DBF1-4112-986E-1983DEC0AF60"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write_pollonce.CNC.machine1_0"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "62D39413-FC79-4843-8C6E-A76F0D087C70",
+        "InputEvents" : [
+          "7D92803C-9859-4E2C-84A7-DA1AB7E487CE"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "write_pollonce.CNC.machine1_0",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "69FFF21E-2105-4808-9EA8-EA4449F193BC",
+        "InputEvents" : [
+          "40CB7006-808E-4F75-99CB-C4EA7A4F7886"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload",
+        "Outputs" : [
+          "D4A91E4D-9EDA-4DCD-A421-D66D3564B37C"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write.CNC.machine1_0_pub"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "727738B6-370B-4A6A-BDDA-9C638960529F",
+        "InputEvents" : [
+          "87861B39-01EB-4879-A86A-A2C7E6E9301D"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "CNC.machine1_0_pub",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "7D92803C-9859-4E2C-84A7-DA1AB7E487CE",
+        "InputEvents" : [
+          "C396B224-513D-45EB-A087-3B981B096C74"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload (copy 7)",
+        "Outputs" : [
+          "62D39413-FC79-4843-8C6E-A76F0D087C70"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 64564564,\n  // \"attr_json\": {\"msg\": \"helloworld\"},\n  // \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5],\n  \"attr_bool\": false\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write.CNC.machine1_0"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "83B2FA03-A3CA-4929-A4EB-FDA6B5D9E5EA",
+        "InputEvents" : [
+          "23591158-B3A0-4D30-A381-30AF1A8F52A7"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "write.CNC.machine1_0",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "87861B39-01EB-4879-A86A-A2C7E6E9301D",
+        "InputEvents" : [
+          "D398A6CA-879F-460D-8FF5-66983DD40019"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload (copy 3)",
+        "Outputs" : [
+          "727738B6-370B-4A6A-BDDA-9C638960529F"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write.CNC.machine1_5"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "AB39B3E4-4B3E-42E8-82ED-6C8501EEBBB4",
+        "InputEvents" : [
+          "BC37BED2-80E9-477E-BEC8-CA77F5920E55"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "CNC.machine1_5",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "ACBC4A0C-1A68-4457-9C7C-A436F207F8DF",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy 8)",
+        "Outputs" : [
+          "23591158-B3A0-4D30-A381-30AF1A8F52A7"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "pass_through_value" : false,
+            "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+          }
+        },
+        "FunctionName" : "JavaScript processor",
+        "ID" : "BC37BED2-80E9-477E-BEC8-CA77F5920E55",
+        "InputEvents" : [
+          "4061F5B9-E0AF-4F82-98D0-F0411BAA05A2"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write payload",
+        "Outputs" : [
+          "AB39B3E4-4B3E-42E8-82ED-6C8501EEBBB4"
+        ],
+        "State" : {
+          "script" : "result = {\n  \"atrr_num\": 86786786786866,\n  \"attr_json\": {\"msg\": \"hi my nmae is ali\"},\n  \"attr_string\": \"hi string\",\n  \"attr_array\": [1,2,3,4,5,6,7,8],\n  \"attr_bool\": true\n}"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1_5"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "C081872F-1938-45A3-9643-BC6E93F6B88D",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT full payload subscribe (copy)",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "C396B224-513D-45EB-A087-3B981B096C74",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy 7)",
+        "Outputs" : [
+          "7D92803C-9859-4E2C-84A7-DA1AB7E487CE"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "D398A6CA-879F-460D-8FF5-66983DD40019",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy 4)",
+        "Outputs" : [
+          "87861B39-01EB-4879-A86A-A2C7E6E9301D"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write.CNC.machine1"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "D4A91E4D-9EDA-4DCD-A421-D66D3564B37C",
+        "InputEvents" : [
+          "69FFF21E-2105-4808-9EA8-EA4449F193BC"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write topic",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write_pollonce.CNC.machine1"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "D643B8B4-4119-4ADD-852C-18DEE760A8B5",
+        "InputEvents" : [
+          "35A6DAC2-5D7A-4091-A0E7-8C1EB4634EF8"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT write pollonce topic",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write_pollonce.CNC.machine1_5_pub"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "DA13BD6D-E62F-4109-90A8-758A12491696",
+        "InputEvents" : [
+          "3F81F5F4-0392-4945-9000-2C2AC19B06D7"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "write_pollonce.CNC.machine1_5_pub",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "dynamic_topic" : false,
+            "single_topic" : true,
+            "topic" : "digitaltwins.write_pollonce.CNC.machine1_0_pub"
+          }
+        },
+        "FunctionName" : "DataHub Publish",
+        "ID" : "DAE33140-21D3-4155-A05B-900DFA23A29E",
+        "InputEvents" : [
+          "31CCFE31-3D19-4E57-9482-604C42B806FD"
+        ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "pollonce CNC.machine1_0_pub",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "DED37CEE-F48B-4F8A-AB53-A2D60DD0BE97",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy 6)",
+        "Outputs" : [
+          "621F934F-2881-4B13-88E3-3A86375E8A20"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "E6A3507C-A729-48DF-BD57-96A5A406AFF3",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy)",
+        "Outputs" : [
+          "35A6DAC2-5D7A-4091-A0E7-8C1EB4634EF8"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "ignore_failed_data" : false,
+            "ignore_null_value" : false,
+            "topic" : "digitaltwins.CNC.machine1_5_pub.>"
+          }
+        },
+        "FunctionName" : "DataHub Subscribe",
+        "ID" : "EDF6E8E4-84D3-4716-B450-AF0AECA1BF8A",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "DT full payload subscribe (copy 5)",
+        "Outputs" : [ ],
+        "State" : null
+      },
+      {
+        "Config" : {
+          "settings" : {
+            "add_timestamp" : true,
+            "execution_time" : "00:00",
+            "friday" : false,
+            "inject_field" : "a",
+            "inject_value" : "a",
+            "inject_value_type" : "string",
+            "monday" : false,
+            "saturday" : false,
+            "sunday" : false,
+            "thursday" : false,
+            "timer_interval_type" : "seconds",
+            "timer_interval_value" : 0,
+            "timing_mode" : "once",
+            "tuesday" : false,
+            "wednesday" : false
+          }
+        },
+        "FunctionName" : "Inject",
+        "ID" : "FF235FDD-5730-46E5-9A60-32012E8569CB",
+        "InputEvents" : [ ],
+        "InputWaits" : [ ],
+        "InputsDefinitions" : { },
+        "IsActive" : true,
+        "Name" : "Inject  - [6574] (copy 2)",
+        "Outputs" : [
+          "550C73DF-E00E-4397-BF45-40C92217F95D"
+        ],
+        "State" : {
+          "add_timestamp" : true,
+          "inject_field" : "a",
+          "inject_value" : "a",
+          "inject_value_type" : "string",
+          "timer_interval_type" : "seconds",
+          "timer_interval_value" : 0,
+          "timing_mode" : "once"
+        }
+      }
+    ],
+    "Version" : "2.5.0"
+  },
+  "auth" : {
+    "groups" : [
+      {
+        "id" : "5d571169-35e9-4d40-b668-1e2b1564a208",
+        "name" : "OPCUATEST",
+        "system" : false
+      },
+      {
+        "id" : "default_admins_group",
+        "name" : "Administrators",
+        "system" : true
+      }
+    ],
+    "oidcProviders" : [
+      {
+        "clientId" : "someClietnId",
+        "clientName" : "CLientName",
+        "clientSecret" : "8fd56eea96d9076c4bd51e49d4752e5f6e677aa3abf7ba5e3483e575aab08861202475924bdb7281fa30d526",
+        "groups" : [
+          "5d571169-35e9-4d40-b668-1e2b1564a208",
+          "default_admins_group"
+        ],
+        "providerName" : "testProviderName",
+        "redirectUri" : "https://10.17.3.183/auth/v3/oidc/callback",
+        "url" : "https://dev-es46opu8q7jmyja4.us.auth0.com/"
+      }
+    ],
+    "providers" : [
+      {
+        "bindDN" : "cn=admin,dc=example,dc=org",
+        "bindDNPassword" : "6c02932f168c59cefa10d5a0ed7b533070b9cc181908c1bf5855a2eb2344f27811",
+        "groupAttrGroup" : "member",
+        "groupAttrName" : "cn",
+        "groupAttrUser" : "DN",
+        "groupFilter" : "(&(objectClass=groupOfNames)(cn=litmus*))",
+        "groupSearchBaseDN" : "dc=example,dc=org",
+        "groupSearchScope" : "sub",
+        "groupsToRoles" : {
+          "litmus-admin" : "default_admins_group"
+        },
+        "host" : "10.30.50.4",
+        "name" : "openldap",
+        "port" : 389,
+        "tls" : false,
+        "tlsRootCA" : "",
+        "type" : "generic",
+        "userAttrFirstName" : "givenName",
+        "userAttrID" : "employeeNumber",
+        "userAttrLastName" : "sn",
+        "userAttrUsername" : "cn",
+        "userFilter" : "(&(objectClass=inetOrgPerson))",
+        "userSearchBaseDN" : "dc=example,dc=org",
+        "userSearchScope" : "sub"
+      }
+    ],
+    "rbac" : {
+      "groups" : [
+        [
+          "g_5d571169-35e9-4d40-b668-1e2b1564a208",
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091"
+        ],
+        [
+          "g_default_admins_group",
+          "r_default_admin_role"
+        ]
+      ],
+      "policies" : [
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "dm",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "lic",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "support",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "access",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "access",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "analytics",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "analytics",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "cc",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "cc",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "css",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "css",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ModifyDevices"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ModifyTags"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewDevices"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewDrivers"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewTags"
+        ],
+        [
+          "r_default_admin_role",
+          "dl",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dm",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dm",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dt",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dt",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "events",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "events",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "flows",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "flows",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "ftp",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "ftp",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "iotedge",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "iotedge",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "lic",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "lic",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Create"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Delete"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "ModifyPrivileged"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Update"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "nd",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "nd",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "nwutil",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "nwutil",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "opcua",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "sensonode",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "sensonode",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "stats",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "stats",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "support",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "support",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "sysinfo",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "config",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "config",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "logs",
+          "View"
+        ]
+      ]
+    },
+    "roles" : [
+      {
+        "id" : "f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+        "name" : "opcuaUser",
+        "system" : false
+      },
+      {
+        "id" : "default_admin_role",
+        "name" : "Administrator",
+        "system" : true
+      }
+    ]
+  },
+  "cc" : {
+    "instances" : [
+      {
+        "config" : "{\"persistentStorage\":true,\"queueMode\":\"lifo\",\"accountName\":\"\",\"maxTransactionSize\":100,\"name\":\"TESTPVE\",\"password\":\"\",\"throttlingLimit\":0,\"warehouse\":\"\",\"workersCount\":1,\"database\":\"\",\"plSizeLimitGB\":1,\"schema\":\"\",\"username\":\"\",\"table\":\"\",\"bulkSize\":0,\"commitTimeout\":1000,\"createTable\":false}",
+        "enabled" : false,
+        "id" : "9ae34e0b-235e-42cf-9455-71333451f965",
+        "isSystem" : false,
+        "providerId" : "snowflake",
+        "topics" : [ ]
+      }
+    ],
+    "version" : {
+      "git" : "79a1f7f62f",
+      "version" : "3.2.16"
+    }
+  },
+  "devicehub" : {
+    "Devs" : [
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "5bc98836-cfd4-11e9-bb65-2a2ae2dbcce4",
+          "id" : "f0a38a13-16f5-46a6-b6f6-15747f099b9c",
+          "name" : "testSIm1",
+          "settings" : {
+            "description" : ""
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      }
+    ],
+    "Git" : "10500beee3",
+    "Version" : "2.25.96"
+  },
+  "dm" : {
+    "country" : "US",
+    "dns" : [
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "docker" : {
+      "bip" : "10.30.50.1/24"
+    },
+    "ntp" : [
+      "0.pool.ntp.org",
+      "1.pool.ntp.org",
+      "2.pool.ntp.org",
+      "3.pool.ntp.org"
+    ],
+    "timezone" : "UTC"
+  },
+  "dtwin" : {
+    "instances" : [
+      {
+        "dynamicAttributes" : [
+          {
+            "dataType" : "string",
+            "id" : "21aa4896-0b3b-4a14-9940-8f5312cdda1d",
+            "instanceId" : "1716cd0b-1e88-4e77-a789-5e6d665ac052",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_string",
+            "parentId" : "505a74d2-7b3b-47e2-b409-5da3713f9001",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "json",
+            "id" : "5f667e85-61c2-42af-a895-e29004df9024",
+            "instanceId" : "1716cd0b-1e88-4e77-a789-5e6d665ac052",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_json",
+            "parentId" : "e5ade135-d1aa-4f08-99f4-0232613963d4",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "array",
+            "id" : "bd5e7b84-c0d8-4f88-849d-c52ca66853bc",
+            "instanceId" : "1716cd0b-1e88-4e77-a789-5e6d665ac052",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_array",
+            "parentId" : "6ef0c5b2-48ac-4546-8bbd-77ba24313b28",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "number",
+            "id" : "c3ff494b-5af5-4bab-8ba2-a9d687dd1aa9",
+            "instanceId" : "1716cd0b-1e88-4e77-a789-5e6d665ac052",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "atrr_num",
+            "parentId" : "cd9fe7b7-092a-4088-9032-8486b5d49535",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "boolean",
+            "id" : "f82e05f3-d56a-493b-80ff-5e5ae066849a",
+            "instanceId" : "1716cd0b-1e88-4e77-a789-5e6d665ac052",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_bool",
+            "parentId" : "8c132959-8beb-4ce7-abe6-1ffbdfebec3f",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          }
+        ],
+        "flatten" : false,
+        "id" : "1716cd0b-1e88-4e77-a789-5e6d665ac052",
+        "image" : "",
+        "interval" : 5,
+        "isEnabled" : true,
+        "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+        "name" : "machine1_5",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "b2d92530-b143-43c5-8375-dd2324a0d8ad",
+            "instanceId" : "1716cd0b-1e88-4e77-a789-5e6d665ac052",
+            "key" : "Model",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "aaf10506-9e1e-4ee2-a458-771de3acd440",
+            "type" : 0,
+            "value" : "automation_testing"
+          }
+        ],
+        "topic" : "digitaltwins.CNC.machine1_5",
+        "transformationBackup" : null
+      },
+      {
+        "assetHierarchy" : {
+          "hierarchyMetadata" : {
+            "Area" : "pve-area",
+            "Enterprise" : "PVE",
+            "Plant" : "pve-plant",
+            "Region" : "PVE-Region",
+            "Site" : "pve-sit",
+            "Work Center" : "pve-work-center",
+            "Work Unit" : "instance-NEWEST"
+          },
+          "hierarchyPath" : "PVE.PVE_Region.pve_sit.pve_plant.pve_area.pve_work_center.instance_NEWEST"
+        },
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "instance-NEWEST",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "1aedbbd2-9729-4d34-9f5d-bc1861fb6603",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "31d1b01c-940b-409c-ac71-1c173789fcdc",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "565b5f29-fa7c-4356-89e8-2dac659c7a5b",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "b3ff47ff-ecf3-46f0-b73c-f400a4b7d92d",
+            "instanceId" : "21eb2200-088c-4b4d-af11-93298bbe48ff",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.instance-NEWEST",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "3395044c-db3e-4b46-a843-8fd1f9093e78",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "aldo_insta",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "154a96e7-f8e7-4244-83c0-afd24fd6f5ad",
+            "instanceId" : "3395044c-db3e-4b46-a843-8fd1f9093e78",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "28a4a5a9-ceed-4fe5-b49d-abd36aeaaa97",
+            "instanceId" : "3395044c-db3e-4b46-a843-8fd1f9093e78",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "3f03274d-1d94-4406-8a5c-39ef4111876f",
+            "instanceId" : "3395044c-db3e-4b46-a843-8fd1f9093e78",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "b6269f29-64d1-44e6-9da5-1e871da43da7",
+            "instanceId" : "3395044c-db3e-4b46-a843-8fd1f9093e78",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.aldo_insta",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : [
+          {
+            "dataType" : "number",
+            "id" : "6507590d-23e8-451b-9a55-5f614be7f5de",
+            "instanceId" : "5479c329-b84f-4c8b-90b5-36909ec3e741",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "atrr_num",
+            "parentId" : "cd9fe7b7-092a-4088-9032-8486b5d49535",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "json",
+            "id" : "769bb0b5-6736-489b-829b-9462e2e34204",
+            "instanceId" : "5479c329-b84f-4c8b-90b5-36909ec3e741",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_json",
+            "parentId" : "e5ade135-d1aa-4f08-99f4-0232613963d4",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "string",
+            "id" : "8299157b-913e-40ed-8f9b-f9ea182afcfe",
+            "instanceId" : "5479c329-b84f-4c8b-90b5-36909ec3e741",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_string",
+            "parentId" : "505a74d2-7b3b-47e2-b409-5da3713f9001",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "array",
+            "id" : "ae3d531b-59a3-4337-afd0-a8fe4a251619",
+            "instanceId" : "5479c329-b84f-4c8b-90b5-36909ec3e741",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_array",
+            "parentId" : "6ef0c5b2-48ac-4546-8bbd-77ba24313b28",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "boolean",
+            "id" : "e639d634-ab1e-4cba-b8cb-e6ec86576109",
+            "instanceId" : "5479c329-b84f-4c8b-90b5-36909ec3e741",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_bool",
+            "parentId" : "8c132959-8beb-4ce7-abe6-1ffbdfebec3f",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          }
+        ],
+        "flatten" : false,
+        "id" : "5479c329-b84f-4c8b-90b5-36909ec3e741",
+        "image" : "",
+        "interval" : 0,
+        "isEnabled" : true,
+        "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+        "name" : "machine1_0_pub",
+        "parameters" : null,
+        "publishAttributes" : true,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "e08fce5c-e2c4-4f3e-9287-e564bc83de52",
+            "instanceId" : "5479c329-b84f-4c8b-90b5-36909ec3e741",
+            "key" : "Model",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "aaf10506-9e1e-4ee2-a458-771de3acd440",
+            "type" : 0,
+            "value" : "automation_testing"
+          }
+        ],
+        "topic" : "digitaltwins.CNC.machine1_0_pub",
+        "transformationBackup" : null
+      },
+      {
+        "assetHierarchy" : {
+          "hierarchyMetadata" : {
+            "Enterprise" : "PVE",
+            "Plant" : "archie_instance",
+            "Region" : "PVE-Region",
+            "Site" : "pve-sit"
+          },
+          "hierarchyPath" : "PVE.PVE_Region.pve_sit.archie_instance"
+        },
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "6b5d711e-a9f9-453b-9427-f549c346a6e1",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "archie_instance",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "35cf4b84-9722-4a52-8da5-3c597cd5ef9f",
+            "instanceId" : "6b5d711e-a9f9-453b-9427-f549c346a6e1",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "4e36cda3-4a27-4dc0-982a-b454455ca254",
+            "instanceId" : "6b5d711e-a9f9-453b-9427-f549c346a6e1",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "7bb99151-235d-46b4-b41b-126d748e57b9",
+            "instanceId" : "6b5d711e-a9f9-453b-9427-f549c346a6e1",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "f7a4a24c-6779-487a-9749-1206de9384d5",
+            "instanceId" : "6b5d711e-a9f9-453b-9427-f549c346a6e1",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.archie_instance",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : [
+          {
+            "dataType" : "string",
+            "id" : "4e0c36b6-9581-40ad-b4b4-efdde27fe609",
+            "instanceId" : "987f89d1-5e3f-4853-8434-3a377e19bb72",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_string",
+            "parentId" : "505a74d2-7b3b-47e2-b409-5da3713f9001",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "boolean",
+            "id" : "5ec82e8d-04bf-455a-bcfe-07d2bbac2e9d",
+            "instanceId" : "987f89d1-5e3f-4853-8434-3a377e19bb72",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_bool",
+            "parentId" : "8c132959-8beb-4ce7-abe6-1ffbdfebec3f",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "json",
+            "id" : "881fecfb-de7a-4c06-8062-5d3ca19fe0a8",
+            "instanceId" : "987f89d1-5e3f-4853-8434-3a377e19bb72",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_json",
+            "parentId" : "e5ade135-d1aa-4f08-99f4-0232613963d4",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "array",
+            "id" : "ca175f47-5046-4e24-86b3-e4f0422257e0",
+            "instanceId" : "987f89d1-5e3f-4853-8434-3a377e19bb72",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_array",
+            "parentId" : "6ef0c5b2-48ac-4546-8bbd-77ba24313b28",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "number",
+            "id" : "ce7dd571-4b06-47fe-a86f-80c2c15a3555",
+            "instanceId" : "987f89d1-5e3f-4853-8434-3a377e19bb72",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "atrr_num",
+            "parentId" : "cd9fe7b7-092a-4088-9032-8486b5d49535",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          }
+        ],
+        "flatten" : false,
+        "id" : "987f89d1-5e3f-4853-8434-3a377e19bb72",
+        "image" : "",
+        "interval" : 5,
+        "isEnabled" : true,
+        "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+        "name" : "machine1_5_pub",
+        "parameters" : null,
+        "publishAttributes" : true,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "d2c06708-fbbc-4cdf-aa6c-7f21847958a8",
+            "instanceId" : "987f89d1-5e3f-4853-8434-3a377e19bb72",
+            "key" : "Model",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "aaf10506-9e1e-4ee2-a458-771de3acd440",
+            "type" : 0,
+            "value" : "automation_testing"
+          }
+        ],
+        "topic" : "digitaltwins.CNC.machine1_5_pub",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : [
+          {
+            "dataType" : "boolean",
+            "id" : "2974c69d-a35d-40a2-b1da-67357ec1cdd4",
+            "instanceId" : "a8854360-b96b-42c6-b549-433f6bd0468f",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_bool",
+            "parentId" : "8c132959-8beb-4ce7-abe6-1ffbdfebec3f",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "number",
+            "id" : "6079ba32-a2be-4222-8079-9f8200b0c65a",
+            "instanceId" : "a8854360-b96b-42c6-b549-433f6bd0468f",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "atrr_num",
+            "parentId" : "cd9fe7b7-092a-4088-9032-8486b5d49535",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "array",
+            "id" : "b8ecf75c-3d67-420d-b066-2d8c29cdd374",
+            "instanceId" : "a8854360-b96b-42c6-b549-433f6bd0468f",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_array",
+            "parentId" : "6ef0c5b2-48ac-4546-8bbd-77ba24313b28",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "json",
+            "id" : "d113d9b4-10b9-4f07-ab40-7a984119cf3c",
+            "instanceId" : "a8854360-b96b-42c6-b549-433f6bd0468f",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_json",
+            "parentId" : "e5ade135-d1aa-4f08-99f4-0232613963d4",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "string",
+            "id" : "d53e3d65-b500-474f-b87a-3ea1515e0621",
+            "instanceId" : "a8854360-b96b-42c6-b549-433f6bd0468f",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "name" : "attr_string",
+            "parentId" : "505a74d2-7b3b-47e2-b409-5da3713f9001",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          }
+        ],
+        "flatten" : false,
+        "id" : "a8854360-b96b-42c6-b549-433f6bd0468f",
+        "image" : "",
+        "interval" : 0,
+        "isEnabled" : true,
+        "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+        "name" : "machine1_0",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "a7dffe7b-d513-4af3-9a89-9afef734104b",
+            "instanceId" : "a8854360-b96b-42c6-b549-433f6bd0468f",
+            "key" : "Model",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "aaf10506-9e1e-4ee2-a458-771de3acd440",
+            "type" : 0,
+            "value" : "automation_testing"
+          }
+        ],
+        "topic" : "digitaltwins.CNC.machine1_0",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "b8628f7c-990a-4025-b2a3-87193f3af651",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "instance_new",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "09b74e76-20e1-4e50-8d92-0f299a710803",
+            "instanceId" : "b8628f7c-990a-4025-b2a3-87193f3af651",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "5a0297ae-1169-418a-b263-1069c3e67beb",
+            "instanceId" : "b8628f7c-990a-4025-b2a3-87193f3af651",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "9fb8e1c5-7903-462f-b615-de7a78c31dad",
+            "instanceId" : "b8628f7c-990a-4025-b2a3-87193f3af651",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "ffe7a623-2b2d-400c-add1-c64cdd440e3a",
+            "instanceId" : "b8628f7c-990a-4025-b2a3-87193f3af651",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.instance_new",
+        "transformationBackup" : null
+      },
+      {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "name" : "instance",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "40d77757-b8e7-41e7-8387-e68bd2d87529",
+            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+            "key" : "Device Description",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "e5e4d848-a74a-4b93-a678-8218f760affa",
+            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+            "key" : "pve",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "ecd7260b-925f-48b8-955f-ddf585b599b1",
+            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "fee15512-6715-4545-801b-c42ae00d9c56",
+            "instanceId" : "fcb057e2-0094-4ad6-b4c7-2dd038d8e6f5",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "00000000-0000-0000-0000-000000000000",
+            "parentId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          }
+        ],
+        "topic" : "digitaltwins.pve-model-1.instance",
+        "transformationBackup" : null
+      }
+    ],
+    "models" : [
+      {
+        "assets" : "ASSET",
+        "connectorName" : "",
+        "description" : "",
+        "dynamicAttributes" : null,
+        "hierarchyNodes" : [
+          {
+            "attributeId" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "attributeType" : "static",
+            "id" : "0dc5602e-47f3-4a6c-8522-bd8834b88a20",
+            "isFolder" : false,
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "name" : "Asset Hierarchy Metadata",
+            "nodeType" : "attribute",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
+            "position" : 0
+          },
+          {
+            "attributeId" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "attributeType" : "static",
+            "id" : "41affcb2-6d53-4039-b8e3-a126754d9f66",
+            "isFolder" : false,
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "name" : "Asset Hierarchy Path",
+            "nodeType" : "attribute",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
+            "position" : 0
+          },
+          {
+            "attributeId" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "attributeType" : "static",
+            "id" : "6ff92a26-6140-4514-8b46-469b85ee18c9",
+            "isFolder" : false,
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "name" : "pve",
+            "nodeType" : "attribute",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
+            "position" : 0
+          },
+          {
+            "attributeId" : null,
+            "attributeType" : null,
+            "id" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
+            "isFolder" : true,
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "name" : "static_attributes",
+            "nodeType" : "folder",
+            "parentId" : null,
+            "position" : 0
+          },
+          {
+            "attributeId" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "attributeType" : "static",
+            "id" : "ba22efe7-3f84-4b77-9615-af740dc037a7",
+            "isFolder" : false,
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "name" : "Device Description",
+            "nodeType" : "attribute",
+            "parentId" : "ac047622-9717-42ca-a921-e9bbab78cdd6",
+            "position" : 0
+          }
+        ],
+        "id" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+        "image" : "",
+        "isUNS" : false,
+        "name" : "pve-model-1",
+        "parameters" : null,
+        "source" : "external",
+        "staticAttributes" : [
+          {
+            "id" : "0c789118-8e32-46c6-9e60-b29925ad29ae",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Device Description",
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_SYSTEM_TIME}"
+          },
+          {
+            "id" : "6918c059-ed43-4716-92f2-c48654419a4e",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "pve",
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          },
+          {
+            "id" : "7f81a6d0-5fbf-4703-844e-7701362d73b5",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Asset Hierarchy Metadata",
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_METADATA}"
+          },
+          {
+            "id" : "fa9a18a4-fb2e-4f28-84f8-562cc31a32c3",
+            "instanceId" : "00000000-0000-0000-0000-000000000000",
+            "key" : "Asset Hierarchy Path",
+            "modelId" : "83da3b66-3eab-412c-baa3-c52a56c84b78",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "{EDGE_DT_HIERARCHY_PATH}"
+          }
+        ],
+        "transformationBackup" : null,
+        "version" : 0
+      },
+      {
+        "assets" : "ASSET",
+        "connectorName" : "",
+        "description" : "",
+        "dynamicAttributes" : [
+          {
+            "dataType" : "string",
+            "id" : "505a74d2-7b3b-47e2-b409-5da3713f9001",
+            "instanceId" : null,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_string",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "array",
+            "id" : "6ef0c5b2-48ac-4546-8bbd-77ba24313b28",
+            "instanceId" : null,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_array",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "boolean",
+            "id" : "8c132959-8beb-4ce7-abe6-1ffbdfebec3f",
+            "instanceId" : null,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_bool",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "number",
+            "id" : "cd9fe7b7-092a-4088-9032-8486b5d49535",
+            "instanceId" : null,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "atrr_num",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          },
+          {
+            "dataType" : "json",
+            "id" : "e5ade135-d1aa-4f08-99f4-0232613963d4",
+            "instanceId" : null,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_json",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "schemaId" : null,
+            "skipParentKey" : false,
+            "topic" : "",
+            "topicExpression" : "",
+            "unit" : ""
+          }
+        ],
+        "hierarchyNodes" : [
+          {
+            "attributeId" : "505a74d2-7b3b-47e2-b409-5da3713f9001",
+            "attributeType" : "dynamic",
+            "id" : "342c1380-f8ba-4359-9ce5-dc07f50f38e6",
+            "isFolder" : false,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_string",
+            "nodeType" : "attribute",
+            "parentId" : "98d0bb88-d1ee-47aa-b103-3b7e7b3be068",
+            "position" : 1
+          },
+          {
+            "attributeId" : "8c132959-8beb-4ce7-abe6-1ffbdfebec3f",
+            "attributeType" : "dynamic",
+            "id" : "3e36af6a-0773-4211-83f5-a1b9cda4c5e2",
+            "isFolder" : false,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_bool",
+            "nodeType" : "attribute",
+            "parentId" : "98d0bb88-d1ee-47aa-b103-3b7e7b3be068",
+            "position" : 2
+          },
+          {
+            "attributeId" : "e5ade135-d1aa-4f08-99f4-0232613963d4",
+            "attributeType" : "dynamic",
+            "id" : "3e9a7bf8-9161-4ff2-9346-5d55f9017f2c",
+            "isFolder" : false,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_json",
+            "nodeType" : "attribute",
+            "parentId" : "98d0bb88-d1ee-47aa-b103-3b7e7b3be068",
+            "position" : 4
+          },
+          {
+            "attributeId" : "6ef0c5b2-48ac-4546-8bbd-77ba24313b28",
+            "attributeType" : "dynamic",
+            "id" : "420015c8-0fb9-4e86-aa8d-3227fe3041a9",
+            "isFolder" : false,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "attr_array",
+            "nodeType" : "attribute",
+            "parentId" : "98d0bb88-d1ee-47aa-b103-3b7e7b3be068",
+            "position" : 0
+          },
+          {
+            "attributeId" : null,
+            "attributeType" : null,
+            "id" : "98d0bb88-d1ee-47aa-b103-3b7e7b3be068",
+            "isFolder" : true,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "dynamic_attributes",
+            "nodeType" : "folder",
+            "parentId" : null,
+            "position" : 1
+          },
+          {
+            "attributeId" : "cd9fe7b7-092a-4088-9032-8486b5d49535",
+            "attributeType" : "dynamic",
+            "id" : "b614857a-d77f-45c6-99e6-2d55805f223d",
+            "isFolder" : false,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "atrr_num",
+            "nodeType" : "attribute",
+            "parentId" : "98d0bb88-d1ee-47aa-b103-3b7e7b3be068",
+            "position" : 3
+          },
+          {
+            "attributeId" : null,
+            "attributeType" : null,
+            "id" : "caafb9c7-0d8a-4d9f-9a70-430ad12cabef",
+            "isFolder" : true,
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "name" : "static_attributes",
+            "nodeType" : "folder",
+            "parentId" : null,
+            "position" : 0
+          }
+        ],
+        "id" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+        "image" : "",
+        "isUNS" : false,
+        "name" : "CNC",
+        "parameters" : null,
+        "source" : "local",
+        "staticAttributes" : [
+          {
+            "id" : "aaf10506-9e1e-4ee2-a458-771de3acd440",
+            "instanceId" : null,
+            "key" : "Model",
+            "modelId" : "bf206ee1-3623-469f-92b5-98be7e4cc1e6",
+            "parentId" : "00000000-0000-0000-0000-000000000000",
+            "type" : 0,
+            "value" : "automation_testing"
+          }
+        ],
+        "transformationBackup" : null,
+        "version" : 0
+      }
+    ],
+    "version" : {
+      "git" : "9f575eaf75",
+      "version" : "2.8.13"
+    }
+  },
+  "flows_manager" : [
+    {
+      "flow_config" : {
+        "id" : 1,
+        "memory_limit" : 256,
+        "name" : "flow-1",
+        "state" : 1
+      },
+      "flow_file" : "[\n    {\n        \"id\": \"efc94a4a45fccb64\",\n        \"type\": \"tab\",\n        \"label\": \"Flow 1\",\n        \"disabled\": false,\n        \"info\": \"\",\n        \"env\": []\n    },\n    {\n        \"id\": \"3ee9ebdb405d66ee\",\n        \"type\": \"inject\",\n        \"z\": \"efc94a4a45fccb64\",\n        \"name\": \"\",\n        \"props\": [\n            {\n                \"p\": \"payload\"\n            },\n            {\n                \"p\": \"topic\",\n                \"vt\": \"str\"\n            }\n        ],\n        \"repeat\": \"\",\n        \"crontab\": \"\",\n        \"once\": false,\n        \"onceDelay\": 0.1,\n        \"topic\": \"\",\n        \"payload\": \"\",\n        \"payloadType\": \"date\",\n        \"x\": 580,\n        \"y\": 120,\n        \"wires\": [\n            [\n                \"fccfe5dcff0ac804\"\n            ]\n        ]\n    },\n    {\n        \"id\": \"fccfe5dcff0ac804\",\n        \"type\": \"debug\",\n        \"z\": \"efc94a4a45fccb64\",\n        \"name\": \"debug 1\",\n        \"active\": false,\n        \"tosidebar\": true,\n        \"console\": false,\n        \"tostatus\": false,\n        \"complete\": \"false\",\n        \"statusVal\": \"\",\n        \"statusType\": \"auto\",\n        \"x\": 820,\n        \"y\": 120,\n        \"wires\": []\n    }\n]",
+      "flow_heartbeat_monitor" : {
+        "heartbeat_loss_tolerance" : 5,
+        "id" : 1
+      }
+    }
+  ],
+  "opcua" : {
+    "certificates" : [ ],
+    "enabled" : false,
+    "hierarchy" : {
+      "children" : null,
+      "data" : null,
+      "id" : "edgedevice",
+      "name" : "EdgeDevice",
+      "node_source" : "import",
+      "parent_id" : "",
+      "path" : [
+        "NODE",
+        "edgedevice"
+      ],
+      "type" : "FOLDER",
+      "worker_node_id" : "EdgeDevice",
+      "worker_node_id_mode" : "fixed"
+    },
+    "modes" : {
+      "Aes128_Sha256_RsaOaep-Sign" : false,
+      "Aes128_Sha256_RsaOaep-SignAndEncrypt" : false,
+      "Aes256_Sha256_RsaPss-Sign" : false,
+      "Aes256_Sha256_RsaPss-SignAndEncrypt" : false,
+      "Basic128Rsa15-Sign" : false,
+      "Basic128Rsa15-SignAndEncrypt" : false,
+      "Basic256-Sign" : false,
+      "Basic256-SignAndEncrypt" : false,
+      "Basic256Sha256-Sign" : false,
+      "Basic256Sha256-SignAndEncrypt" : false,
+      "None-None" : false
+    },
+    "policies" : { },
+    "users" : [ ],
+    "version" : {
+      "GitCommit" : "",
+      "Version" : ""
+    }
+  },
+  "stats" : {
+    "devices" : [
+      {
+        "id" : "f0a38a13-16f5-46a6-b6f6-15747f099b9c",
+        "name" : "testSIm1",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.testSIm1.>"
+      }
+    ],
+    "timeseries" : [
+      {
+        "id" : "f0a38a13-16f5-46a6-b6f6-15747f099b9c",
+        "name" : "testSIm1"
+      }
+    ],
+    "timeseries_db" : {
+      "enabled" : true,
+      "source" : "internal"
+    },
+    "version" : {
+      "Git" : "33a036cdbf",
+      "Version" : "2.2.2"
+    }
+  },
+  "sysinfo" : {
+    "labels" : [ ]
+  }
+}
