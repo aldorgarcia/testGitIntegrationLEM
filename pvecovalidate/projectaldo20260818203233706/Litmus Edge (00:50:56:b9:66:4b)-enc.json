@@ -1,0 +1,65 @@
+{
+  "analytics2" : {
+    "Git" : "HEAD",
+    "Positions" : [ ],
+    "Processors" : [ ],
+    "Version" : "latest"
+  },
+  "marketplace" : {
+    "content" : "e30=",
+    "version" : "v0002"
+  },
+  "opcua" : {
+    "certificates" : [ ],
+    "enabled" : false,
+    "hierarchy" : {
+      "children" : null,
+      "data" : null,
+      "id" : "edgedevice",
+      "name" : "EdgeDevice",
+      "node_source" : "manual",
+      "parent_id" : "",
+      "path" : [
+        "NODE",
+        "edgedevice"
+      ],
+      "type" : "FOLDER",
+      "version" : 1,
+      "worker_node_id" : "EdgeDevice",
+      "worker_node_id_mode" : "fixed"
+    },
+    "modes" : {
+      "Aes128_Sha256_RsaOaep-Sign" : false,
+      "Aes128_Sha256_RsaOaep-SignAndEncrypt" : false,
+      "Aes256_Sha256_RsaPss-Sign" : false,
+      "Aes256_Sha256_RsaPss-SignAndEncrypt" : false,
+      "Basic128Rsa15-Sign" : false,
+      "Basic128Rsa15-SignAndEncrypt" : false,
+      "Basic256-Sign" : false,
+      "Basic256-SignAndEncrypt" : false,
+      "Basic256Sha256-Sign" : false,
+      "Basic256Sha256-SignAndEncrypt" : false,
+      "None-None" : false
+    },
+    "policies" : { },
+    "users" : [ ],
+    "version" : {
+      "GitCommit" : "",
+      "Version" : ""
+    }
+  },
+  "stats" : {
+    "timeseries_db" : {
+      "enabled" : true,
+      "source" : "internal"
+    },
+    "version" : {
+      "Git" : "9ea6b5b0fa",
+      "Version" : "2.5.2"
+    }
+  },
+  "sysinfo" : {
+    "labels" : [ ]
+  },
+  "version" : "2.0.0"
+}
