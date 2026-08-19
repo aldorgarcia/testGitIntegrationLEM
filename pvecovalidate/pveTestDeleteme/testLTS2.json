@@ -5,6 +5,403 @@
     "Processors" : [ ],
     "Version" : "2.5.0"
   },
+  "auth" : {
+    "groups" : [
+      {
+        "id" : "5d571169-35e9-4d40-b668-1e2b1564a208",
+        "name" : "OPCUATEST",
+        "system" : false
+      },
+      {
+        "id" : "default_admins_group",
+        "name" : "Administrators",
+        "system" : true
+      }
+    ],
+    "oidcProviders" : [
+      {
+        "clientId" : "someClietnId",
+        "clientName" : "CLientName",
+        "clientSecret" : "someCLientSecret",
+        "groups" : [
+          "5d571169-35e9-4d40-b668-1e2b1564a208",
+          "default_admins_group"
+        ],
+        "providerName" : "testProviderName",
+        "redirectUri" : "https://10.17.3.183/auth/v3/oidc/callback",
+        "url" : "https://dev-es46opu8q7jmyja4.us.auth0.com/"
+      }
+    ],
+    "providers" : [
+      {
+        "bindDN" : "cn=admin,dc=example,dc=org",
+        "bindDNPassword" : "admin",
+        "groupAttrGroup" : "member",
+        "groupAttrName" : "cn",
+        "groupAttrUser" : "DN",
+        "groupFilter" : "(&(objectClass=groupOfNames)(cn=litmus*))",
+        "groupSearchBaseDN" : "dc=example,dc=org",
+        "groupSearchScope" : "sub",
+        "groupsToRoles" : {
+          "litmus-admin" : "default_admins_group"
+        },
+        "host" : "10.30.50.4",
+        "name" : "openldap",
+        "port" : 389,
+        "tls" : false,
+        "tlsRootCA" : "",
+        "type" : "generic",
+        "userAttrFirstName" : "givenName",
+        "userAttrID" : "employeeNumber",
+        "userAttrLastName" : "sn",
+        "userAttrUsername" : "cn",
+        "userFilter" : "(&(objectClass=inetOrgPerson))",
+        "userSearchBaseDN" : "dc=example,dc=org",
+        "userSearchScope" : "sub"
+      }
+    ],
+    "rbac" : {
+      "groups" : [
+        [
+          "g_5d571169-35e9-4d40-b668-1e2b1564a208",
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091"
+        ],
+        [
+          "g_default_admins_group",
+          "r_default_admin_role"
+        ]
+      ],
+      "policies" : [
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "lic",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "dm",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "support",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "access",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "access",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "analytics",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "analytics",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "auth",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "cc",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "cc",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "css",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "css",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ModifyDevices"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ModifyTags"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewDevices"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewDrivers"
+        ],
+        [
+          "r_default_admin_role",
+          "dh",
+          "ViewTags"
+        ],
+        [
+          "r_default_admin_role",
+          "dl",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dm",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dm",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "dt",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "dt",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "events",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "events",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "flows",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "flows",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "ftp",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "ftp",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "iotedge",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "iotedge",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "lic",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "lic",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Create"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Delete"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "ModifyPrivileged"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "Update"
+        ],
+        [
+          "r_default_admin_role",
+          "mp",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "nd",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "nd",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "nwutil",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "nwutil",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "opcua",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "sensonode",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "sensonode",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "stats",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "stats",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "support",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "support",
+          "View"
+        ],
+        [
+          "r_default_admin_role",
+          "sysinfo",
+          "Modify"
+        ],
+        [
+          "r_default_admin_role",
+          "sysinfo",
+          "View"
+        ]
+      ]
+    },
+    "roles" : [
+      {
+        "id" : "f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+        "name" : "opcuaUser",
+        "system" : false
+      },
+      {
+        "id" : "default_admin_role",
+        "name" : "Administrator",
+        "system" : true
+      }
+    ]
+  },
   "dm" : {
     "country" : "US",
     "dns" : [
@@ -24,9 +421,26 @@
   },
   "opcua" : {
     "certificates" : [ ],
-    "enabled" : false,
+    "enabled" : true,
     "hierarchy" : {
-      "children" : null,
+      "children" : [
+        {
+          "children" : null,
+          "data" : null,
+          "id" : "442aeb0d-ec95-4d88-9568-aa040765e05d",
+          "name" : "FOLDERPVE",
+          "node_source" : "manual",
+          "parent_id" : "edgedevice",
+          "path" : [
+            "NODE",
+            "edgedevice",
+            "442aeb0d-ec95-4d88-9568-aa040765e05d"
+          ],
+          "type" : "FOLDER",
+          "worker_node_id" : "EdgeDevice.FOLDERPVE",
+          "worker_node_id_mode" : "hierarchical"
+        }
+      ],
       "data" : null,
       "id" : "edgedevice",
       "name" : "EdgeDevice",
@@ -51,9 +465,13 @@
       "Basic256-SignAndEncrypt" : false,
       "Basic256Sha256-Sign" : false,
       "Basic256Sha256-SignAndEncrypt" : false,
-      "None-None" : false
+      "None-None" : true
     },
-    "policies" : { },
+    "policies" : {
+      "Anonymous" : [
+        "None"
+      ]
+    },
     "users" : [ ],
     "version" : {
       "GitCommit" : "",
