@@ -1,0 +1,76 @@
+{
+  "analytics2" : {
+    "Git" : "97c8e09334",
+    "Positions" : [ ],
+    "Processors" : [ ],
+    "Version" : "2.5.0"
+  },
+  "dm" : {
+    "country" : "US",
+    "dns" : [
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "docker" : {
+      "bip" : "10.30.50.1/24"
+    },
+    "ntp" : [
+      "0.pool.ntp.org",
+      "1.pool.ntp.org",
+      "2.pool.ntp.org",
+      "3.pool.ntp.org"
+    ],
+    "timezone" : "UTC"
+  },
+  "opcua" : {
+    "certificates" : [ ],
+    "enabled" : false,
+    "hierarchy" : {
+      "children" : null,
+      "data" : null,
+      "id" : "edgedevice",
+      "name" : "EdgeDevice",
+      "node_source" : "manual",
+      "parent_id" : "",
+      "path" : [
+        "NODE",
+        "edgedevice"
+      ],
+      "type" : "FOLDER",
+      "worker_node_id" : "EdgeDevice",
+      "worker_node_id_mode" : "fixed"
+    },
+    "modes" : {
+      "Aes128_Sha256_RsaOaep-Sign" : false,
+      "Aes128_Sha256_RsaOaep-SignAndEncrypt" : false,
+      "Aes256_Sha256_RsaPss-Sign" : false,
+      "Aes256_Sha256_RsaPss-SignAndEncrypt" : false,
+      "Basic128Rsa15-Sign" : false,
+      "Basic128Rsa15-SignAndEncrypt" : false,
+      "Basic256-Sign" : false,
+      "Basic256-SignAndEncrypt" : false,
+      "Basic256Sha256-Sign" : false,
+      "Basic256Sha256-SignAndEncrypt" : false,
+      "None-None" : false
+    },
+    "policies" : { },
+    "users" : [ ],
+    "version" : {
+      "GitCommit" : "",
+      "Version" : ""
+    }
+  },
+  "stats" : {
+    "timeseries_db" : {
+      "enabled" : true,
+      "source" : "internal"
+    },
+    "version" : {
+      "Git" : "33a036cdbf",
+      "Version" : "2.2.2"
+    }
+  },
+  "sysinfo" : {
+    "labels" : [ ]
+  }
+}
