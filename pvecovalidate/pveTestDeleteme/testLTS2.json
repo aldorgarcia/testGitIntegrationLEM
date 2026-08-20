@@ -73,6 +73,51 @@
       ],
       "policies" : [
         [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "sysinfo",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "lic",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "AcceptEula"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "ChangePassword"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "auth",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "dm",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "support",
+          "View"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "Modify"
+        ],
+        [
+          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
+          "opcua",
+          "View"
+        ],
+        [
           "r_default_admin_role",
           "access",
           "Modify"
@@ -340,51 +385,6 @@
         [
           "r_default_admin_role",
           "sysinfo",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "sysinfo",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "lic",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "AcceptEula"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "ChangePassword"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "auth",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "dm",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "support",
-          "View"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "opcua",
-          "Modify"
-        ],
-        [
-          "r_f6aec3d4-6ce2-4fdd-8967-b3156a4bd091",
-          "opcua",
           "View"
         ]
       ]
