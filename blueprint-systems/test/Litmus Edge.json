@@ -18811,6 +18811,27 @@
           "dh_params" : {
             "WatchDog" : "false"
           },
+          "driverId" : "5bc98836-cfd4-11e9-bb65-2a2ae2dbcce4",
+          "id" : "f2e852c4-6ab5-4ba0-8555-a3927707a541",
+          "name" : "Test",
+          "settings" : {
+            "description" : ""
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
           "driverId" : "2372e68f-ba1b-46e9-bc07-e92ca006b377",
           "id" : "f96584f6-dd85-4b7d-9053-53c68c67d290",
           "meta_tags" : {
@@ -33627,6 +33648,12 @@
         "topic" : "devicehub.alias.P1_L2_Machine1_1_OPC.>"
       },
       {
+        "id" : "f2e852c4-6ab5-4ba0-8555-a3927707a541",
+        "name" : "Test",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.Test.>"
+      },
+      {
         "id" : "f96584f6-dd85-4b7d-9053-53c68c67d290",
         "name" : "P2_L1_Machine1_1_OPC",
         "retention_hours" : 2,
@@ -33715,6 +33742,10 @@
         "topics" : [
           "devicehub.alias.P1_L2_Machine1_1_OPC.>"
         ]
+      },
+      {
+        "id" : "f2e852c4-6ab5-4ba0-8555-a3927707a541",
+        "name" : "Test"
       },
       {
         "id" : "f96584f6-dd85-4b7d-9053-53c68c67d290",
