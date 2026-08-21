@@ -11195,11 +11195,13 @@
             "name" : "H",
             "settings" : {
               "address" : "1",
+              "count" : "1",
+              "endianness" : "AB CD",
               "pollingInterval" : "1000"
             },
             "value_type" : "word"
           },
-          "debug" : false,
+          "debug" : true,
           "dh_params" : {
             "WatchDog" : "false"
           },
