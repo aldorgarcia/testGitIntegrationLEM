@@ -12751,6 +12751,32 @@
           "dh_params" : {
             "WatchDog" : "false"
           },
+          "driverId" : "69e7e8d0-0d2c-4f2a-ab84-7a989bb83c14",
+          "id" : "4327a6bb-89f2-4279-9a10-a5075f32130c",
+          "name" : "IEC",
+          "settings" : {
+            "AuthMethod" : "0",
+            "description" : "",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "102",
+            "requestTimeout" : "5000"
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishAdditionalAttributes" : "false",
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
           "driverId" : "2372e68f-ba1b-46e9-bc07-e92ca006b377",
           "id" : "538054e8-2349-4ad0-8c87-830c9a06b118",
           "meta_tags" : {
@@ -33586,6 +33612,12 @@
         "topic" : "devicehub.alias.P1_L1_Machine2_1_MB.>"
       },
       {
+        "id" : "4327a6bb-89f2-4279-9a10-a5075f32130c",
+        "name" : "IEC",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.IEC.>"
+      },
+      {
         "id" : "538054e8-2349-4ad0-8c87-830c9a06b118",
         "name" : "P2_L2_Machine1_1_OPC",
         "retention_hours" : 2,
@@ -33682,6 +33714,10 @@
         "topics" : [
           "devicehub.alias.P1_L1_Machine2_1_MB.>"
         ]
+      },
+      {
+        "id" : "4327a6bb-89f2-4279-9a10-a5075f32130c",
+        "name" : "IEC"
       },
       {
         "id" : "538054e8-2349-4ad0-8c87-830c9a06b118",
