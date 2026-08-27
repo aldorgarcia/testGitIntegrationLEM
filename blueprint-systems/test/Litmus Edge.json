@@ -14298,6 +14298,29 @@
       {
         "Dev" : {
           "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "cdface5b-7202-4fa9-b0d9-37256ab1f9c3",
+          "id" : "67c8d3f6-61a5-4b20-97b8-e095468ffeed",
+          "name" : "GE EGD Ethernet",
+          "settings" : {
+            "description" : "",
+            "networkInterface" : "10.17.3.9/22",
+            "networkPort" : "18246",
+            "producerExchange1Destination" : "192.168.0.1",
+            "producerExchange1ID" : "1",
+            "producerExchange1Size" : "1"
+          },
+          "stopped" : false,
+          "version" : "0.0.1"
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
           "custom_polling_register" : {
             "name" : "H",
             "settings" : {
@@ -33663,6 +33686,12 @@
         "topic" : "devicehub.alias.P1_L2_Machine3_1_S7.>"
       },
       {
+        "id" : "67c8d3f6-61a5-4b20-97b8-e095468ffeed",
+        "name" : "GE EGD Ethernet",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.GE_EGD_Ethernet.>"
+      },
+      {
         "id" : "7bf01228-1b5c-4efe-9e3c-8e01e2f7f2f6",
         "name" : "P2_L1_Machine2_1_MB",
         "retention_hours" : 24,
@@ -33767,6 +33796,10 @@
         "topics" : [
           "devicehub.alias.P1_L2_Machine3_1_S7.>"
         ]
+      },
+      {
+        "id" : "67c8d3f6-61a5-4b20-97b8-e095468ffeed",
+        "name" : "GE EGD Ethernet"
       },
       {
         "id" : "7bf01228-1b5c-4efe-9e3c-8e01e2f7f2f6",
