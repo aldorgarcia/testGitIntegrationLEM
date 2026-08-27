@@ -11191,31 +11191,6 @@
       {
         "Dev" : {
           "aliasTopics" : true,
-          "debug" : false,
-          "dh_params" : {
-            "WatchDog" : "false"
-          },
-          "driverId" : "257321a4-3069-4df4-95f0-1599777c6fb4",
-          "id" : "0322afe6-3561-4ef7-837d-8c3fa95f8d7d",
-          "name" : "AutomationDirect",
-          "settings" : {
-            "description" : "",
-            "networkAddress" : "192.168.0.1",
-            "networkPort" : "502",
-            "readTimeout" : "3000",
-            "tagsCSV" : "tags.csv"
-          },
-          "stopped" : false,
-          "version" : "0.0.1",
-          "worker_params" : {
-            "PublishOnPollingInterval" : "false"
-          }
-        },
-        "Registers" : [ ]
-      },
-      {
-        "Dev" : {
-          "aliasTopics" : true,
           "custom_polling_register" : {
             "name" : "H",
             "settings" : {
@@ -14315,6 +14290,30 @@
           },
           "stopped" : false,
           "version" : "0.0.1"
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "464335b0-1d0e-4e70-b6db-2bc54a7db469",
+          "id" : "76b8523b-0076-450e-b4fe-2b70e29a4f42",
+          "name" : "Yokogawa MX Ethernet 01",
+          "settings" : {
+            "description" : "",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "34316",
+            "readTimeout" : "3000"
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
         },
         "Registers" : [ ]
       },
@@ -18166,6 +18165,30 @@
             "value_type" : "int16"
           }
         ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "464335b0-1d0e-4e70-b6db-2bc54a7db469",
+          "id" : "db136af4-74f8-49c0-bd83-4cc271a33875",
+          "name" : "Yokogawa MX Ethernet",
+          "settings" : {
+            "description" : "",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "34316",
+            "readTimeout" : "3000"
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
       },
       {
         "Dev" : {
@@ -33646,12 +33669,6 @@
         "topic" : "devicehub.alias.P1_L1_Machine3_1_S7.>"
       },
       {
-        "id" : "0322afe6-3561-4ef7-837d-8c3fa95f8d7d",
-        "name" : "AutomationDirect",
-        "retention_hours" : 168,
-        "topic" : "devicehub.alias.AutomationDirect.>"
-      },
-      {
         "id" : "0a99ba31-89b9-45b3-822b-3a94cddab411",
         "name" : "P1_L2_Machine2_1_MB",
         "retention_hours" : 2,
@@ -33690,6 +33707,12 @@
         "name" : "GE EGD Ethernet",
         "retention_hours" : 168,
         "topic" : "devicehub.alias.GE_EGD_Ethernet.>"
+      },
+      {
+        "id" : "76b8523b-0076-450e-b4fe-2b70e29a4f42",
+        "name" : "Yokogawa MX Ethernet 01",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.Yokogawa_MX_Ethernet_01.>"
       },
       {
         "id" : "7bf01228-1b5c-4efe-9e3c-8e01e2f7f2f6",
@@ -33733,6 +33756,12 @@
         "topic" : "devicehub.alias.P2_L2_Machine2_1_MB.>"
       },
       {
+        "id" : "db136af4-74f8-49c0-bd83-4cc271a33875",
+        "name" : "Yokogawa MX Ethernet",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.Yokogawa_MX_Ethernet.>"
+      },
+      {
         "id" : "eb3fcbed-a13f-4231-8914-81bf59d6e643",
         "name" : "P1_L2_Machine1_1_OPC",
         "retention_hours" : 2,
@@ -33760,10 +33789,6 @@
         "topics" : [
           "devicehub.alias.P1_L1_Machine3_1_S7.>"
         ]
-      },
-      {
-        "id" : "0322afe6-3561-4ef7-837d-8c3fa95f8d7d",
-        "name" : "AutomationDirect"
       },
       {
         "id" : "0a99ba31-89b9-45b3-822b-3a94cddab411",
@@ -33800,6 +33825,10 @@
       {
         "id" : "67c8d3f6-61a5-4b20-97b8-e095468ffeed",
         "name" : "GE EGD Ethernet"
+      },
+      {
+        "id" : "76b8523b-0076-450e-b4fe-2b70e29a4f42",
+        "name" : "Yokogawa MX Ethernet 01"
       },
       {
         "id" : "7bf01228-1b5c-4efe-9e3c-8e01e2f7f2f6",
@@ -33839,6 +33868,10 @@
         "topics" : [
           "devicehub.alias.P2_L2_Machine2_1_MB.>"
         ]
+      },
+      {
+        "id" : "db136af4-74f8-49c0-bd83-4cc271a33875",
+        "name" : "Yokogawa MX Ethernet"
       },
       {
         "id" : "eb3fcbed-a13f-4231-8914-81bf59d6e643",
