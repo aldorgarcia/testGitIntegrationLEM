@@ -11191,6 +11191,31 @@
       {
         "Dev" : {
           "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "257321a4-3069-4df4-95f0-1599777c6fb4",
+          "id" : "0322afe6-3561-4ef7-837d-8c3fa95f8d7d",
+          "name" : "AutomationDirect",
+          "settings" : {
+            "description" : "",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "502",
+            "readTimeout" : "3000",
+            "tagsCSV" : "tags.csv"
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
           "custom_polling_register" : {
             "name" : "H",
             "settings" : {
@@ -33598,6 +33623,12 @@
         "topic" : "devicehub.alias.P1_L1_Machine3_1_S7.>"
       },
       {
+        "id" : "0322afe6-3561-4ef7-837d-8c3fa95f8d7d",
+        "name" : "AutomationDirect",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.AutomationDirect.>"
+      },
+      {
         "id" : "0a99ba31-89b9-45b3-822b-3a94cddab411",
         "name" : "P1_L2_Machine2_1_MB",
         "retention_hours" : 2,
@@ -33700,6 +33731,10 @@
         "topics" : [
           "devicehub.alias.P1_L1_Machine3_1_S7.>"
         ]
+      },
+      {
+        "id" : "0322afe6-3561-4ef7-837d-8c3fa95f8d7d",
+        "name" : "AutomationDirect"
       },
       {
         "id" : "0a99ba31-89b9-45b3-822b-3a94cddab411",
