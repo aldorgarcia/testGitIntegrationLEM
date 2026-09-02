@@ -19764,6 +19764,22 @@
         "transformationBackup" : null
       },
       {
+        "dynamicAttributes" : null,
+        "flatten" : false,
+        "id" : "761adb1a-659e-4241-9409-80142efd467f",
+        "image" : "",
+        "interval" : 1,
+        "isEnabled" : true,
+        "modelId" : "404d2c0b-be7e-4f52-838c-383a7efe8d3c",
+        "name" : "Boiler-instance",
+        "parameters" : null,
+        "publishAttributes" : false,
+        "source" : "local",
+        "staticAttributes" : null,
+        "topic" : "digitaltwins.Boiler.Boiler-instance",
+        "transformationBackup" : null
+      },
+      {
         "dynamicAttributes" : [
           {
             "dataType" : "json",
