@@ -16626,6 +16626,35 @@
           "aliasTopics" : true,
           "debug" : false,
           "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "08cf3271-b72c-414f-9771-43355869aa99",
+          "id" : "af0caf55-be0d-4d3f-afd3-835f9600834e",
+          "name" : "IDEC-Serial",
+          "settings" : {
+            "baudRate" : "3",
+            "dataBits" : "2",
+            "description" : "",
+            "deviceFile" : "1",
+            "parity" : "2",
+            "readTimeout" : "1000",
+            "stationId" : "0",
+            "stopBits" : "0",
+            "tagsTXT" : "IDEC Serial.txt"
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
             "WatchDog" : "true",
             "WatchDogPeriod" : "30"
           },
@@ -33758,6 +33787,12 @@
         "topic" : "devicehub.alias.test.>"
       },
       {
+        "id" : "af0caf55-be0d-4d3f-afd3-835f9600834e",
+        "name" : "IDEC-Serial",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.IDEC_Serial.>"
+      },
+      {
         "id" : "c27e0dac-b863-489f-8a19-f526ee6fe2d2",
         "name" : "P2_L2_Machine3_1_S7",
         "retention_hours" : 2,
@@ -33870,6 +33905,10 @@
       {
         "id" : "a95f67fe-eb38-4621-a4a1-5ed0620b0160",
         "name" : "test"
+      },
+      {
+        "id" : "af0caf55-be0d-4d3f-afd3-835f9600834e",
+        "name" : "IDEC-Serial"
       },
       {
         "id" : "c27e0dac-b863-489f-8a19-f526ee6fe2d2",
