@@ -16655,6 +16655,31 @@
           "aliasTopics" : true,
           "debug" : false,
           "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "257321a4-3069-4df4-95f0-1599777c6fb4",
+          "id" : "b1aeaf46-3723-4910-b4ec-18bcaf5b52b5",
+          "name" : "AD-PSE",
+          "settings" : {
+            "description" : "",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "502",
+            "readTimeout" : "3000",
+            "tagsCSV" : "tags.csv"
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
             "WatchDog" : "true",
             "WatchDogPeriod" : "30"
           },
@@ -33793,6 +33818,12 @@
         "topic" : "devicehub.alias.IDEC_Serial.>"
       },
       {
+        "id" : "b1aeaf46-3723-4910-b4ec-18bcaf5b52b5",
+        "name" : "AD-PSE",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.AD_PSE.>"
+      },
+      {
         "id" : "c27e0dac-b863-489f-8a19-f526ee6fe2d2",
         "name" : "P2_L2_Machine3_1_S7",
         "retention_hours" : 2,
@@ -33909,6 +33940,10 @@
       {
         "id" : "af0caf55-be0d-4d3f-afd3-835f9600834e",
         "name" : "IDEC-Serial"
+      },
+      {
+        "id" : "b1aeaf46-3723-4910-b4ec-18bcaf5b52b5",
+        "name" : "AD-PSE"
       },
       {
         "id" : "c27e0dac-b863-489f-8a19-f526ee6fe2d2",
