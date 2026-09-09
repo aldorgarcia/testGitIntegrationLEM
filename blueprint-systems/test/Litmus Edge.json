@@ -12759,6 +12759,36 @@
           "dh_params" : {
             "WatchDog" : "false"
           },
+          "driverId" : "2fbb1709-e94f-4244-bfc8-779c4d504ada",
+          "id" : "2958dff2-cb81-4221-80fc-56fedd9e6d5d",
+          "name" : "DNP3 Ethernet with FB Extensions",
+          "settings" : {
+            "class123PollPeriod" : "30",
+            "description" : "",
+            "enableTimeSync" : "0",
+            "masterAddress" : "0",
+            "networkAddress" : "192.168.0.1",
+            "networkPort" : "20000",
+            "outstationAddress" : "1",
+            "password" : "",
+            "user" : ""
+          },
+          "stopped" : false,
+          "version" : "0.0.4",
+          "worker_params" : {
+            "PublishAdditionalAttributes" : "false",
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "false"
+          },
           "driverId" : "69e7e8d0-0d2c-4f2a-ab84-7a989bb83c14",
           "id" : "4327a6bb-89f2-4279-9a10-a5075f32130c",
           "name" : "IEC",
@@ -33761,6 +33791,12 @@
         "topic" : "devicehub.alias.P1_L1_Machine2_1_MB.>"
       },
       {
+        "id" : "2958dff2-cb81-4221-80fc-56fedd9e6d5d",
+        "name" : "DNP3 Ethernet with FB Extensions",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.DNP3_Ethernet_with_FB_Extensions.>"
+      },
+      {
         "id" : "4327a6bb-89f2-4279-9a10-a5075f32130c",
         "name" : "IEC",
         "retention_hours" : 168,
@@ -33893,6 +33929,10 @@
         "topics" : [
           "devicehub.alias.P1_L1_Machine2_1_MB.>"
         ]
+      },
+      {
+        "id" : "2958dff2-cb81-4221-80fc-56fedd9e6d5d",
+        "name" : "DNP3 Ethernet with FB Extensions"
       },
       {
         "id" : "4327a6bb-89f2-4279-9a10-a5075f32130c",
