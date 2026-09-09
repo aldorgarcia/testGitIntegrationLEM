@@ -9097,6 +9097,14 @@
         ]
       },
       {
+        "config" : "{\"cluster\":\"te\",\"name\":\"tes\",\"projectID\":\"tes\",\"subscribeIntervalSeconds\":1,\"workersCount\":1,\"clientID\":\"tee\",\"clientSecret\":\"set\",\"scope\":\"te\",\"tenantID\":\"tes\",\"persistentStorage\":true,\"plSizeLimitGB\":1,\"queueMode\":\"lifo\",\"throttlingLimit\":0}",
+        "enabled" : false,
+        "id" : "396e1546-829e-4bba-a8bf-2cef336ab844",
+        "isSystem" : false,
+        "providerId" : "cognite",
+        "topics" : [ ]
+      },
+      {
         "config" : "{\"createTable\":false,\"database\":\"litmus\",\"hostname\":\"172.172.0.1\",\"mapping\":{\"anomaly\":\"{{.anomaly}}\",\"asset\":\"{{.asset}}\",\"line\":\"{{.line}}\",\"numDeviations\":\"{{.numDeviations}}\",\"plant\":\"{{.plant}}\",\"time\":\"{{.time}}\"},\"name\":\"Insert Anomaly History\",\"password\":\"Demo1234\",\"persistentStorage\":true,\"plSizeLimitGB\":1,\"plSizeLimitMB\":1024,\"port\":1433,\"queueMode\":\"fifo\",\"table\":\"anomalyHistory\",\"throttlingLimit\":0,\"username\":\"sa\"}",
         "enabled" : true,
         "id" : "39925a6b-d9e4-4568-bb8e-110e740d6e60",
@@ -33994,14 +34002,14 @@
   "sysinfo" : {
     "labels" : [
       {
-        "id" : "a03dcf6c-5a04-4093-a7b8-bca9aaa21a13",
-        "key" : "environment2",
-        "value" : "test"
-      },
-      {
         "id" : "d47f5e6c-f4f1-4c82-8cec-a80eeca5fe45",
         "key" : "environment1",
         "value" : "production"
+      },
+      {
+        "id" : "a03dcf6c-5a04-4093-a7b8-bca9aaa21a13",
+        "key" : "environment2",
+        "value" : "test"
       }
     ]
   }
