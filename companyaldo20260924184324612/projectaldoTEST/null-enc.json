@@ -1,0 +1,115 @@
+{
+  "analytics2" : {
+    "Git" : "HEAD",
+    "Positions" : [ ],
+    "Processors" : [ ],
+    "Version" : "latest"
+  },
+  "devicehub" : {
+    "Devs" : [
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "custom_polling_register" : {
+            "name" : "bit",
+            "settings" : {
+              "address" : "0",
+              "count" : "1",
+              "formula" : "",
+              "maxValue" : "0",
+              "minValue" : "0",
+              "pollingInterval" : "1000"
+            },
+            "value_type" : "bit"
+          },
+          "debug" : false,
+          "dh_params" : {
+            "WatchDog" : "true",
+            "WatchDogPeriod" : "30"
+          },
+          "driverId" : "50e3eda1-11f9-41d6-9232-778a28665580",
+          "id" : "a8f78aa7-a896-45db-940e-294e027d4cd1",
+          "name" : "TESTFROMB",
+          "settings" : {
+            "description" : ""
+          },
+          "stopped" : false,
+          "version" : "1.0",
+          "worker_params" : {
+            "PublishAdditionalAttributes" : "false"
+          }
+        },
+        "Registers" : [ ]
+      }
+    ],
+    "Git" : "82d02c4c5e",
+    "Version" : "2.26.24"
+  },
+  "opcua" : {
+    "certificates" : [ ],
+    "enabled" : false,
+    "hierarchy" : {
+      "children" : null,
+      "data" : null,
+      "id" : "edgedevice",
+      "name" : "EdgeDevice",
+      "node_source" : "manual",
+      "parent_id" : "",
+      "path" : [
+        "NODE",
+        "edgedevice"
+      ],
+      "type" : "FOLDER",
+      "version" : 1,
+      "worker_node_id" : "EdgeDevice",
+      "worker_node_id_mode" : "fixed"
+    },
+    "modes" : {
+      "Aes128_Sha256_RsaOaep-Sign" : false,
+      "Aes128_Sha256_RsaOaep-SignAndEncrypt" : false,
+      "Aes256_Sha256_RsaPss-Sign" : false,
+      "Aes256_Sha256_RsaPss-SignAndEncrypt" : false,
+      "Basic128Rsa15-Sign" : false,
+      "Basic128Rsa15-SignAndEncrypt" : false,
+      "Basic256-Sign" : false,
+      "Basic256-SignAndEncrypt" : false,
+      "Basic256Sha256-Sign" : false,
+      "Basic256Sha256-SignAndEncrypt" : false,
+      "None-None" : false
+    },
+    "policies" : { },
+    "users" : [ ],
+    "version" : {
+      "GitCommit" : "",
+      "Version" : ""
+    }
+  },
+  "stats" : {
+    "devices" : [
+      {
+        "id" : "a8f78aa7-a896-45db-940e-294e027d4cd1",
+        "name" : "TESTFROMB",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.TESTFROMB.>"
+      }
+    ],
+    "timeseries" : [
+      {
+        "id" : "a8f78aa7-a896-45db-940e-294e027d4cd1",
+        "name" : "TESTFROMB"
+      }
+    ],
+    "timeseries_db" : {
+      "enabled" : true,
+      "source" : "internal"
+    },
+    "version" : {
+      "Git" : "9ea6b5b0fa",
+      "Version" : "2.5.2"
+    }
+  },
+  "sysinfo" : {
+    "labels" : [ ]
+  },
+  "version" : "2.0.0"
+}
