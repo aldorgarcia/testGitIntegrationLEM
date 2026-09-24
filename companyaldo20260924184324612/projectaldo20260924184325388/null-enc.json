@@ -10,20 +10,33 @@
       {
         "Dev" : {
           "aliasTopics" : true,
+          "custom_polling_register" : {
+            "name" : "bit",
+            "settings" : {
+              "address" : "0",
+              "count" : "1",
+              "formula" : "",
+              "maxValue" : "0",
+              "minValue" : "0",
+              "pollingInterval" : "1000"
+            },
+            "value_type" : "bit"
+          },
           "debug" : false,
           "dh_params" : {
-            "WatchDog" : "false"
+            "WatchDog" : "true",
+            "WatchDogPeriod" : "30"
           },
-          "driverId" : "5bc98836-cfd4-11e9-bb65-2a2ae2dbcce4",
-          "id" : "91d082cd-6255-414b-838c-c2776a1472a4",
-          "name" : "TESTFROMA",
+          "driverId" : "50e3eda1-11f9-41d6-9232-778a28665580",
+          "id" : "a8f78aa7-a896-45db-940e-294e027d4cd1",
+          "name" : "TESTFROMB",
           "settings" : {
             "description" : ""
           },
           "stopped" : false,
-          "version" : "0.0.1",
+          "version" : "1.0",
           "worker_params" : {
-            "PublishOnPollingInterval" : "false"
+            "PublishAdditionalAttributes" : "false"
           }
         },
         "Registers" : [ ]
@@ -74,16 +87,16 @@
   "stats" : {
     "devices" : [
       {
-        "id" : "91d082cd-6255-414b-838c-c2776a1472a4",
-        "name" : "TESTFROMA",
+        "id" : "a8f78aa7-a896-45db-940e-294e027d4cd1",
+        "name" : "TESTFROMB",
         "retention_hours" : 168,
-        "topic" : "devicehub.alias.TESTFROMA.>"
+        "topic" : "devicehub.alias.TESTFROMB.>"
       }
     ],
     "timeseries" : [
       {
-        "id" : "91d082cd-6255-414b-838c-c2776a1472a4",
-        "name" : "TESTFROMA"
+        "id" : "a8f78aa7-a896-45db-940e-294e027d4cd1",
+        "name" : "TESTFROMB"
       }
     ],
     "timeseries_db" : {
