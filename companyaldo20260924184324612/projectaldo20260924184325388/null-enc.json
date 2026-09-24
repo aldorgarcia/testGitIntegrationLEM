@@ -15,8 +15,8 @@
             "WatchDog" : "false"
           },
           "driverId" : "5bc98836-cfd4-11e9-bb65-2a2ae2dbcce4",
-          "id" : "d8497e12-84f4-4035-98ca-6df7c224913d",
-          "name" : "TESTFROM_C",
+          "id" : "91d082cd-6255-414b-838c-c2776a1472a4",
+          "name" : "TESTFROMA",
           "settings" : {
             "description" : ""
           },
@@ -74,16 +74,16 @@
   "stats" : {
     "devices" : [
       {
-        "id" : "d8497e12-84f4-4035-98ca-6df7c224913d",
-        "name" : "TESTFROM_C",
+        "id" : "91d082cd-6255-414b-838c-c2776a1472a4",
+        "name" : "TESTFROMA",
         "retention_hours" : 168,
-        "topic" : "devicehub.alias.TESTFROM_C.>"
+        "topic" : "devicehub.alias.TESTFROMA.>"
       }
     ],
     "timeseries" : [
       {
-        "id" : "d8497e12-84f4-4035-98ca-6df7c224913d",
-        "name" : "TESTFROM_C"
+        "id" : "91d082cd-6255-414b-838c-c2776a1472a4",
+        "name" : "TESTFROMA"
       }
     ],
     "timeseries_db" : {
