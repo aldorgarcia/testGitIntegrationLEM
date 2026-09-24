@@ -1221,7 +1221,7 @@
       {
         "clientId" : "someClietnId",
         "clientName" : "CLientName",
-        "clientSecret" : "55459f45b62b8d0bff9110aa362851c98e6e692bf022795d918b4f0a130fa66a4eeb419363ebba6eb649cdd7",
+        "clientSecret" : "3a17a3a59fbade35aacbcd073bdbda2e351cd27fac831f453276aafcfd2b691d7dd06a9a2c2d30c90d872e3c",
         "groups" : [
           "5d571169-35e9-4d40-b668-1e2b1564a208",
           "default_admins_group"
@@ -1234,7 +1234,7 @@
     "providers" : [
       {
         "bindDN" : "cn=admin,dc=example,dc=org",
-        "bindDNPassword" : "9929c94b7a2e7d652953374b6885eb49372c39afe82592956b938f240ff8175ba0",
+        "bindDNPassword" : "d7b1c8ddb46faf99f80e73f9b03803c89493a6c819df501dea1fecd827a6e286e3",
         "groupAttrGroup" : "member",
         "groupAttrName" : "cn",
         "groupAttrUser" : "DN",
