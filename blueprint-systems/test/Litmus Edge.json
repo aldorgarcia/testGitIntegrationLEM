@@ -15861,6 +15861,50 @@
           "aliasTopics" : true,
           "debug" : false,
           "dh_params" : {
+            "WatchDog" : "false"
+          },
+          "driverId" : "2372e68f-ba1b-46e9-bc07-e92ca006b377",
+          "id" : "8db21f3b-38ba-41b4-81ae-4db4028cc8ce",
+          "name" : "OPC UA Client Advanced",
+          "settings" : {
+            "AuthMode" : "0",
+            "DisableApplicationUriCheck" : "0",
+            "DisableEncryptedPasswordCheck" : "0",
+            "DisableErrorCertificateChainIncomplete" : "0",
+            "DisableErrorCertificateHostNameInvalid" : "0",
+            "DisableErrorCertificateRevocationUnknown" : "0",
+            "DisableErrorCertificateTimeInvalid" : "0",
+            "DisableErrorCertificateUntrusted" : "0",
+            "DriverMode" : "1",
+            "LifetimeCount" : "2400",
+            "LocaleId" : "0",
+            "MaxKeepAliveCount" : "10",
+            "MaxNotificationsPerPublish" : "0",
+            "OverrideRegistersSamplingInterval" : "1",
+            "Priority" : "0",
+            "PublishingInterval" : "500",
+            "RegistersSamplingInterval" : "0",
+            "SecurityMode" : "0",
+            "SecurityPolicy" : "0",
+            "ServerURL" : "opc.tcp://localhost:48010",
+            "SessionCertificate" : "-----BEGIN CERTIFICATE-----\nMIIE1TCCA72gAwIBAgIEanHiIjANBgkqhkiG9w0BAQsFADBfMSgwJgYKCZImiZPy\nLGQBGRYYbGl0bXVzLWVkZ2UtMDA1MDU2YjlkM2RhMQ8wDQYDVQQKDAZMaXRtdXMx\nIjAgBgNVBAMMGUxpdG11cyBFZGdlIE9QQyBVQSBDbGllbnQwHhcNMjYwODA0MTI1\nOTE0WhcNMzYwODAxMTI1OTE0WjBfMSgwJgYKCZImiZPyLGQBGRYYbGl0bXVzLWVk\nZ2UtMDA1MDU2YjlkM2RhMQ8wDQYDVQQKDAZMaXRtdXMxIjAgBgNVBAMMGUxpdG11\ncyBFZGdlIE9QQyBVQSBDbGllbnQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQDJQ8E1afM4Uw2On80byPujfxcQN3lRLvje6gnJhn1g4WxaucPmxuGJZxmL\nE3LmebxX5Ty+wzV9ou+N8XSC7o6iRlXZdcH1GMdXTZspPv99adn5klqIozU144Tl\nPMVsS6PcujCxcVlwY0f1g5fkMs6bHwfn3Yj8QmO9TCQcAoZGa+pU86yoN2NAofdl\nXS6ixiKCz1jVYqOXG1iWcDpLEZ72Eve2a5YFEnZOE4biJxyeZsA/8xEWeboDzS5f\nk8/qPiAzLexQy4QgbESbWpWFiy1r9lycX4Ii1psSJ5wI3owBuGcXhJikEnVj63W5\n61v4QeboSCcImuCmdZYiA2E104Z1AgMBAAGjggGXMIIBkzASBgNVHRMBAf8ECDAG\nAQH/AgEAMFAGCWCGSAGG+EIBDQRDFkEiR2VuZXJhdGVkIHdpdGggVW5pZmllZCBB\ndXRvbWF0aW9uIFVBIEJhc2UgTGlicmFyeSB1c2luZyBPcGVuU1NMIjAdBgNVHQ4E\nFgQUIlVUVFR2yJpa+RM3RIRc6BUgeKwwgYwGA1UdIwSBhDCBgYAUIlVUVFR2yJpa\n+RM3RIRc6BUgeKyhY6RhMF8xKDAmBgoJkiaJk/IsZAEZFhhsaXRtdXMtZWRnZS0w\nMDUwNTZiOWQzZGExDzANBgNVBAoMBkxpdG11czEiMCAGA1UEAwwZTGl0bXVzIEVk\nZ2UgT1BDIFVBIENsaWVudIIEanHiIjAOBgNVHQ8BAf8EBAMCAvQwIAYDVR0lAQH/\nBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEsGA1UdEQREMEKGJnVybjpsaXRtdXMt\nZWRnZS0wMDUwNTZiOWQzZGE6TGl0bXVzOkxFghhsaXRtdXMtZWRnZS0wMDUwNTZi\nOWQzZGEwDQYJKoZIhvcNAQELBQADggEBABYMM+UROyT0CPXDN84m80pgV24lXziq\n3SYRSSQ1L3D5bHchSpOYQaI52U9YwkfSdBdvaYYTKIJ8dZ7tzrgE5fSRBruiO0+r\nxQGUNLM1TfqcXiaIW8ukMMly59VYakvHDAaO4y2W3OYBD5Z0BCbrZj6EJyhSy3NH\n/5Wd1hXpa7hn0Z3SP1vLgc+tTm3Nzc/lBBFYuckUScfgxh6/qOyhM+0FixjAw1Gr\nhGM0a/GP/yCpq57eVSc9wr2XxgMiTBmSJHRsq1FDirO4ob03YvdVNjZmN+N9Niey\n6sew1dqf+nBVdZ74qbnkn40E/sL8mG+GoYjfygd0+wEK7NkfC5Hi1D8=\n-----END CERTIFICATE-----\n",
+            "SessionPrivateKey" : "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJQ8E1afM4Uw2O\nn80byPujfxcQN3lRLvje6gnJhn1g4WxaucPmxuGJZxmLE3LmebxX5Ty+wzV9ou+N\n8XSC7o6iRlXZdcH1GMdXTZspPv99adn5klqIozU144TlPMVsS6PcujCxcVlwY0f1\ng5fkMs6bHwfn3Yj8QmO9TCQcAoZGa+pU86yoN2NAofdlXS6ixiKCz1jVYqOXG1iW\ncDpLEZ72Eve2a5YFEnZOE4biJxyeZsA/8xEWeboDzS5fk8/qPiAzLexQy4QgbESb\nWpWFiy1r9lycX4Ii1psSJ5wI3owBuGcXhJikEnVj63W561v4QeboSCcImuCmdZYi\nA2E104Z1AgMBAAECggEAH7O3dEVrFT0nzoZnVXAUCw3SwTArwNjoRJySzBaOGzuG\nyMeoDurWzcDaqih3GcylGSc3qUiwXUjT+QTGeHVBLFht32IIGiY8CAlmXlnY/pU0\ny3X9IraqhAGBhmZLJqLHfdYqI1kaYHSS+h4vR7elCZQat7ASisGeWkvrCCpxohfH\n1T+XgmgKEY85EDbGe/XFOSdHQpsszPqyQ59iRgZ28fxRPlT4KM11owkU1zXjFiOh\n+Gz39c7x1yQe7++FMNFSWm8VQqziqfoGalIp9qDtIBvVjb5USLottYF6xpG1z10I\n3o1EqJHJCQUU1Q5xWIQoDxYE0icEymKpsgnrQqYahQKBgQDzFIijwPMuJ8LvPv1K\nq4jLq/6L9tzBi8HX4bmDmA62PA9PjxxM0LPgKlTa5bq9VnvqokJFhxJNYfyDbu47\n1vCwlcEnqOghUPrhtFEgUhLU8H1tXveOXz/tslUNhzm+D/l58LCqRTvFBs1raYBM\n3xe4Mq5kynU6jIFn4uQ92meiCwKBgQDT9kIyZGN3l9wQuDJXnCvgTUSZ71nHwOpf\nV+Za6HWt93WtS68+8YVWHwPjjacpyfIF/1NkgEdq5N9fIMuK5DJNOYxrVfk5uMjL\nBl5WdJhRUIWEGAlxS4zL4oiGUlCzoXmui2JlaN8H+8Dsej9Nt35vZ2hP1zw3ovtY\ndjwL279JfwKBgBhU1diOV8km8bxA8dmnkenRLYmVDEPTWXPihE9HyTE0kdPE33BQ\n87BcjGHc3PRW09CIrVmIS6yzQjNlxzL2MOF8G/l8TsAG+xXclsJFdN0btXJdLypx\nHlUMpLbV8lG0B6TNEuH4TCNMqwM1bEJFkno9mHc+TL2vksRzUaVfV0BBAoGBALBh\n1GQqtbrnW/Ft1jahdsGIivWt/4ACQQZmFwK/Pm4t5nb27DXstZAc7xeE4P4dVpE3\nDyYquUNygY6fs8E4c8NfiEIpoOMvqaeI/SfkjnvcDb8GYZUt0VQ4hnOAPDe+v4tH\n4fGRe0chcEFY2STK9SOvYVZPPYTu00mh2gXkLyHxAoGBANJtyvmd4qiDU/loNW6Y\nJcRpougyw47GgDJpUGiEaLcV8efkT/EaxTFvT4OfeiZuWnVFx30FirfR+/lzYeHL\nF8YaZxl5MsJb+ZzsjoFEROiafJGg3ElVNljBA4zlJwFdPTUBSVa8OwAKT1DP11ID\nUlIGgRABY3bC+HXPHu7XttFs\n-----END PRIVATE KEY-----\n",
+            "description" : ""
+          },
+          "stopped" : false,
+          "version" : "0.0.1",
+          "worker_params" : {
+            "PublishAdditionalAttributes" : "false",
+            "PublishOnPollingInterval" : "false"
+          }
+        },
+        "Registers" : [ ]
+      },
+      {
+        "Dev" : {
+          "aliasTopics" : true,
+          "debug" : false,
+          "dh_params" : {
             "WatchDog" : "true",
             "WatchDogPeriod" : "30"
           },
@@ -33847,6 +33891,12 @@
         "topic" : "devicehub.alias.P1_L1_Machine1_1_OPC.>"
       },
       {
+        "id" : "8db21f3b-38ba-41b4-81ae-4db4028cc8ce",
+        "name" : "OPC UA Client Advanced",
+        "retention_hours" : 168,
+        "topic" : "devicehub.alias.OPC_UA_Client_Advanced.>"
+      },
+      {
         "id" : "94d8e47f-9307-47f7-9f8e-b47ae6b90695",
         "name" : "P2_L1_Machine3_1_S7",
         "retention_hours" : 2,
@@ -33977,6 +34027,10 @@
         "topics" : [
           "devicehub.alias.P1_L1_Machine1_1_OPC.>"
         ]
+      },
+      {
+        "id" : "8db21f3b-38ba-41b4-81ae-4db4028cc8ce",
+        "name" : "OPC UA Client Advanced"
       },
       {
         "id" : "94d8e47f-9307-47f7-9f8e-b47ae6b90695",
